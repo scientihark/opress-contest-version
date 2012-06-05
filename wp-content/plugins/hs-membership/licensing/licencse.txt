@@ -1,0 +1,24 @@
+Copyright: © 2010 Haden Software
+<http://haden.cc/>
+
+Released under the terms of the GNU General Public License.
+<http://www.gnu.org/licenses/> - attached as [gpl.txt].
+
+Credits / Additional Acknowledgments:
+
+* Software designed for WordPress®.
+	- GPL License <http://codex.wordpress.org/GPL>
+	- WordPressÂ® <http://wordpress.org>
+
+* Administration panel (tools icon) was provided by Everaldo.com.
+	- LGPL License <http://www.everaldo.com/crystal/?action=license>
+	- Everaldo <http://www.everaldo.com/crystal/?action=downloads>
+
+* This software have been integrated into the s2Member Plugin
+  The files/services provided for the s2Member Plugin are not distributed with this software. They have their own terms & conditions.
+        - The s2Member Plugin, a 3rd party service, is provided by WebSharks, Inc. <mailto:support@websharks-inc.com> <http://www.websharks-inc.com/>
+
+* This software have been integrated with BuddyPress
+  The files/services provided for the BuddyPress are not distributed with this software. They have their own terms & conditions.
+        - The BuddyPress Plugin, a 3rd party service, is provided by the BuddyPress Community. <http://buddypress.org/>
+

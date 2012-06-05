@@ -1,0 +1,1028 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: CodeStyling Localization v1.99.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-08-25 03:13+0100\n"
+"PO-Revision-Date: 2012-04-02 11:22-0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#@ codestyling-localization
+#: codestyling-localization.php:2104
+#: codestyling-localization.php:2158
+#: codestyling-localization.php:2657
+msgid "&laquo; Previous"
+msgstr "&laquo; ankstesnis"
+
+#@ codestyling-localization
+#: codestyling-localization.php:2028
+#: codestyling-localization.php:2033
+#: codestyling-localization.php:2281
+msgid "-n.a.-"
+msgstr "-nepasiekiamas-"
+
+#@ codestyling-localization
+#: codestyling-localization.php:1451
+#: codestyling-localization.php:1487
+#: codestyling-localization.php:2009
+#, php-format
+msgid "<strong>%d</strong> Language"
+msgid_plural "<strong>%d</strong> Languages"
+msgstr[0] "<strong>%d</strong> Kalba"
+msgstr[1] "<strong>%d</strong> Kalbos"
+
+#@ codestyling-localization
+#: codestyling-localization.php:2581
+msgid "Access Error"
+msgstr "Prieigos klaida"
+
+#@ codestyling-localization
+#: codestyling-localization.php:2014
+#: codestyling-localization.php:2148
+msgid "Actions"
+msgstr "Veiksmai"
+
+#@ codestyling-localization
+#: codestyling-localization.php:2007
+#: codestyling-localization.php:2234
+msgid "Add New Language"
+msgstr "Pridėti Naują Kalbą"
+
+#@ codestyling-localization
+#: codestyling-localization.php:1221
+msgid "Affected Total Files"
+msgstr "Iš viso Paveikta Rinkmenų"
+
+#@ codestyling-localization
+#: codestyling-localization.php:1841
+msgid "All Translations"
+msgstr "Visi Vertimai"
+
+#@ codestyling-localization
+#: codestyling-localization.php:1982
+msgid "Available Directories:"
+msgstr "Prieinami Katalogai:"
+
+#@ codestyling-localization
+#: codestyling-localization.php:2328
+msgid "Confirm Delete Language"
+msgstr "Patvirtinti Kalbos Ištrynimą"
+
+#@ codestyling-localization
+#: codestyling-localization.php:2717
+msgid "Copy"
+msgstr "Kopijuoti"
+
+#@ codestyling-localization
+#: codestyling-localization.php:1082
+msgid "Creation-Date"
+msgstr "Sukūrimo Data"
+
+#@ codestyling-localization
+#: codestyling-localization.php:2047
+#: codestyling-localization.php:2293
+msgid "Delete"
+msgstr "Ištrinti"
+
+#@ codestyling-localization
+#: codestyling-localization.php:1886
+#: codestyling-localization.php:1918
+#: codestyling-localization.php:1963
+msgid "Description"
+msgstr "Aprašymas"
+
+#@ codestyling-localization
+#: codestyling-localization.php:2038
+#: codestyling-localization.php:2285
+#: codestyling-localization.php:2716
+msgid "Edit"
+msgstr "Redaguoti"
+
+#@ codestyling-localization
+#: codestyling-localization.php:2173
+#: codestyling-localization.php:3036
+msgid "Edit Catalog Entry"
+msgstr "Redaguoti Katalogo Įrašą"
+
+#@ codestyling-localization
+#: codestyling-localization.php:2852
+msgid "Examples: <small>Please refer to official Perl regular expression descriptions</small>"
+msgstr "Pavyzdžiai: <small>Prašome remtis oficliais įprastinių Perl išraiškų aprašais</small>"
+
+#@ codestyling-localization
+#: codestyling-localization.php:2088
+msgid "Expression Result"
+msgstr "Išraiškos Rezultatas"
+
+#@ codestyling-localization
+#: codestyling-localization.php:2850
+msgid "Expression:"
+msgstr "Išraiška:"
+
+#@ codestyling-localization
+#: codestyling-localization.php:2848
+msgid "Extended Expression Search"
+msgstr "Išplėsta Išraiškos Paieška"
+
+#@ codestyling-localization
+#: codestyling-localization.php:2063
+#: codestyling-localization.php:2460
+#: codestyling-localization.php:3130
+msgid "File:"
+msgstr "Rinkmena:"
+
+#@ codestyling-localization
+#: codestyling-localization.php:2683
+msgid "Files:"
+msgstr "Rinkmenos:"
+
+#@ codestyling-localization
+#: codestyling-localization.php:2117
+msgid "Infos"
+msgstr "Informacija"
+
+#@ codestyling-localization
+#: codestyling-localization.php:2012
+msgid "Language"
+msgstr "Kalba"
+
+#@ codestyling-localization
+#: codestyling-localization.php:1216
+msgid "Language Target"
+msgstr "Kalbos Tikslas"
+
+#@ codestyling-localization
+#: codestyling-localization.php:1887
+msgid "Languages"
+msgstr "Kalbos"
+
+#@ codestyling-localization
+#: codestyling-localization.php:1086
+msgid "Last-Translator"
+msgstr "Galutinis-Vertėjas"
+
+#@ codestyling-localization
+#: codestyling-localization.php:2022
+#: codestyling-localization.php:2273
+msgid "Locale"
+msgstr "Lokalė"
+
+#@ codestyling-localization
+#: codestyling-localization.php:1817
+msgid "Localization"
+msgstr "Lokalizacija"
+
+#@ codestyling-localization
+#: codestyling-localization.php:1829
+msgid "Manage Language Files"
+msgstr "Tvarkyti Kalbos Rinkmenas"
+
+#@ codestyling-localization
+#: codestyling-localization.php:2109
+#: codestyling-localization.php:2163
+#: codestyling-localization.php:2664
+msgid "Next &raquo;"
+msgstr "Kitas &raquo;"
+
+#@ codestyling-localization
+#: codestyling-localization.php:2121
+#: codestyling-localization.php:3081
+msgid "Original:"
+msgstr "Originalas:"
+
+#@ codestyling-localization
+#: codestyling-localization.php:2092
+msgid "Page Size"
+msgstr "Puslapio Dydis"
+
+#@ codestyling-localization
+#: codestyling-localization.php:2013
+msgid "Permissions"
+msgstr "Leidimai"
+
+#@ codestyling-localization
+#: codestyling-localization.php:1234
+msgid "Please standby, files presently being scanned ..."
+msgstr "Prašome ramiai palaukti, rinkmenos šiuo metu yra skenuojamos  ..."
+
+#@ codestyling-localization
+#: codestyling-localization.php:2152
+msgid "Please wait, file content presently being loaded ..."
+msgstr "Prašome palaukti, šiuo metu keliamas rinkmenų turinys ..."
+
+#@ codestyling-localization
+#: codestyling-localization.php:389
+msgid "Plugin"
+msgstr "Papildinys"
+
+#@ codestyling-localization
+#: codestyling-localization.php:1852
+msgid "Plugins"
+msgstr "Papildiniai"
+
+#@ codestyling-localization
+#: codestyling-localization.php:3070
+msgid "Plural Index Calculation:"
+msgstr "Dauginis Indekso Skaičiavimas:"
+
+#@ codestyling-localization
+#: codestyling-localization.php:2701
+#: codestyling-localization.php:2704
+#: codestyling-localization.php:3043
+#: codestyling-localization.php:3046
+#: codestyling-localization.php:3049
+#: codestyling-localization.php:3054
+msgid "Plural Index Result ="
+msgstr "Dauginis Indekso Rezultatas ="
+
+#@ codestyling-localization
+#: codestyling-localization.php:2697
+#: codestyling-localization.php:3068
+msgid "Plural:"
+msgstr "Daugiareikšmis:"
+
+#@ codestyling-localization
+#: codestyling-localization.php:1078
+#: codestyling-localization.php:1212
+msgid "Project-Id-Version"
+msgstr "Projekto-Identifikacijos-Versija"
+
+#@ codestyling-localization
+#: codestyling-localization.php:2041
+#: codestyling-localization.php:2044
+#: codestyling-localization.php:2287
+#: codestyling-localization.php:2290
+msgid "Rescan"
+msgstr "Peržvelgti iš naujo"
+
+#@ codestyling-localization
+#: codestyling-localization.php:2397
+msgid "Rescanning PHP Source Files"
+msgstr "Pirminės PHP Rinkmenosi Peržvelgiamos iš naujo"
+
+#@ codestyling-localization
+#: codestyling-localization.php:3074
+#: codestyling-localization.php:3091
+msgid "Save"
+msgstr "Įrašyti"
+
+#@ codestyling-localization
+#: codestyling-localization.php:3075
+#: codestyling-localization.php:3092
+msgid "Save & Next »"
+msgstr "Įrašyti ir Tęsti »"
+
+#@ codestyling-localization
+#: codestyling-localization.php:1226
+msgid "Scanning Progress"
+msgstr "Peržiūrėjimo Eiga"
+
+#@ codestyling-localization
+#: codestyling-localization.php:2857
+msgid "Search"
+msgstr "Ieškoti"
+
+#@ codestyling-localization
+#: codestyling-localization.php:2087
+msgid "Search Result"
+msgstr "Rezultato Paieška"
+
+#@ codestyling-localization
+#: codestyling-localization.php:1569
+msgid "Server Restrictions: Changing file rights is not permitted."
+msgstr "Serverio Apribojimai: Rinkmenos teisių keitimas neleidžiamas."
+
+#@ codestyling-localization
+#: codestyling-localization.php:2697
+#: codestyling-localization.php:3066
+msgid "Singular:"
+msgstr "Vienareikšmis:"
+
+#@ codestyling-localization
+#: codestyling-localization.php:1627
+msgid "Sorry, Google Translation is not available."
+msgstr "Atsiprašome, Google Vertimas neįmanomas."
+
+#@ codestyling-localization
+#: codestyling-localization.php:1914
+#: codestyling-localization.php:1959
+msgid "State"
+msgstr "Būsena"
+
+#@ codestyling-localization
+#: codestyling-localization.php:1903
+msgid "Textdomain"
+msgstr "Teksto nuoroda"
+
+#@ codestyling-localization
+#: codestyling-localization.php:1972
+msgid "The original US version doesn't contain the language directory."
+msgstr "Nenurodytas originalios US versijos kalbos katalogas"
+
+#@ codestyling-localization
+#: codestyling-localization.php:664
+msgid "Theme"
+msgstr "Apipavidalinimas"
+
+#@ codestyling-localization
+#: codestyling-localization.php:1855
+msgid "Themes"
+msgstr "Apipavidalinimai"
+
+#@ codestyling-localization
+#: codestyling-localization.php:2061
+msgid "Translate Language File"
+msgstr "Išversti Kalbos Rinkmeną"
+
+#@ codestyling-localization
+#: codestyling-localization.php:2136
+#: codestyling-localization.php:3084
+#: codestyling-localization.php:3086
+msgid "Translation:"
+msgstr "Vertimas:"
+
+#@ codestyling-localization
+#: codestyling-localization.php:1885
+msgid "Type"
+msgstr "Tipas"
+
+#@ codestyling-localization
+#: codestyling-localization.php:1910
+#: codestyling-localization.php:1955
+msgid "Version"
+msgstr "Versija"
+
+#@ codestyling-localization
+#: codestyling-localization.php:342
+#: codestyling-localization.php:1844
+msgid "WordPress"
+msgstr "WordPress"
+
+#@ codestyling-localization
+#: codestyling-localization.php:1817
+msgid "WordPress Localization"
+msgstr "WordPress Lokalizacija"
+
+#@ codestyling-localization
+#: codestyling-localization.php:1136
+#, php-format
+msgid "You are about to delete <strong>%s</strong> from \"<strong>%s</strong>\" permanently.<br/>Are you sure you wish to delete these files?"
+msgstr "Jūs ketinate negrįžtamai ištrinti <strong>%s</strong> iš \"<strong>%s</strong>\".<br/> Ar Jūs esate įsitikinęs, jog tikrai norite ištrinti šias rinkmenas?"
+
+#@ codestyling-localization
+#: codestyling-localization.php:320
+msgid "You do not have permission to manage translation files."
+msgstr "Jūs neturite leidimo tvarkyti vertimo rinkmenų."
+
+#@ codestyling-localization
+#: codestyling-localization.php:1752
+msgid "You do not have the permission to choose the translation file directory<br/>Please upload at least one language file (*.mo|*.po) or an empty template file (*.pot) at the appropriated folder using FTP."
+msgstr "Jūs neturite leidimo pasirinkti vertimo rinkmenos katalogo.<br/> Įkelkite bent vieną kalbos rinkmeną (*. mo | *. po) arba tuščią šablono rinkmeną(*. pot) į reikiamą katalogą naudojančią FTP duomenų saugyklą."
+
+#@ codestyling-localization
+#: codestyling-localization.php:1443
+#, php-format
+msgid "You do not have the permission to create the file '%s'."
+msgstr "Jūs neturite leidimo rinkmenai '%s' kurti."
+
+#@ codestyling-localization
+#: codestyling-localization.php:1474
+#: codestyling-localization.php:1475
+#, php-format
+msgid "You do not have the permission to delete the file '%s'."
+msgstr "Jūs neturite leidimo rinkmenai '%s' ištrinti."
+
+#@ codestyling-localization
+#: codestyling-localization.php:1572
+#, php-format
+msgid "You do not have the permission to modify the file rights for a not existing file '%s'."
+msgstr "Jūs neturite leidimo keisti neegzistuojančios rinkmenos  '%s' teisių."
+
+#@ codestyling-localization
+#: codestyling-localization.php:1552
+#: codestyling-localization.php:1657
+#: codestyling-localization.php:1672
+#, php-format
+msgid "You do not have the permission to read the file '%s'."
+msgstr "Jūs neturite leidimo rinkmenos '%s' skaitymui."
+
+#@ codestyling-localization
+#: codestyling-localization.php:1546
+#: codestyling-localization.php:1644
+#: codestyling-localization.php:1712
+#, php-format
+msgid "You do not have the permission to write to the file '%s'."
+msgstr "Jūs neturite leidimo rinkmenos '%s' rašymui."
+
+#@ codestyling-localization
+#: codestyling-localization.php:348
+#: codestyling-localization.php:398
+#: codestyling-localization.php:580
+#: codestyling-localization.php:669
+#: codestyling-localization.php:828
+#: codestyling-localization.php:869
+#: codestyling-localization.php:1896
+#: codestyling-localization.php:1897
+msgid "activated"
+msgstr "suaktyvintas"
+
+#@ codestyling-localization
+#: codestyling-localization.php:135
+msgid "actual"
+msgstr "dabartinis"
+
+#@ codestyling-localization
+#: codestyling-localization.php:1952
+msgid "by"
+msgstr "pagal"
+
+#@ codestyling-localization
+#: codestyling-localization.php:2174
+msgid "close"
+msgstr "užverti"
+
+#@ codestyling-localization
+#: codestyling-localization.php:1125
+msgid "create po-file"
+msgstr "sukurti .po rinkmeną"
+
+#@ codestyling-localization
+#: codestyling-localization.php:398
+#: codestyling-localization.php:669
+#: codestyling-localization.php:828
+#: codestyling-localization.php:869
+msgid "deactivated"
+msgstr "deaktyvuotas"
+
+#@ codestyling-localization
+#: codestyling-localization.php:1904
+msgid "defined by constant"
+msgstr "apibrėžtas konstanta"
+
+#@ codestyling-localization
+#: codestyling-localization.php:1137
+msgid "delete files"
+msgstr "ištrinti rinkmenas"
+
+#@ codestyling-localization
+#: codestyling-localization.php:2423
+#: codestyling-localization.php:2448
+#: codestyling-localization.php:2465
+msgid "finished"
+msgstr "baigta"
+
+#@ codestyling-localization
+#: codestyling-localization.php:2075
+msgid "generate mo-file"
+msgstr "generuoti .mo rinkmeną"
+
+#@ codestyling-localization
+#: codestyling-localization.php:370
+#: codestyling-localization.php:495
+#: codestyling-localization.php:510
+#: codestyling-localization.php:521
+#: codestyling-localization.php:536
+#: codestyling-localization.php:636
+#: codestyling-localization.php:734
+#: codestyling-localization.php:849
+#: codestyling-localization.php:893
+#: codestyling-localization.php:1460
+#: codestyling-localization.php:1541
+#: codestyling-localization.php:1580
+#: codestyling-localization.php:1719
+#: includes/class-translationfile.php:789
+msgid "m/d/Y H:i:s"
+msgstr "m/d/Y H:i:s"
+
+#@ codestyling-localization
+#: codestyling-localization.php:2125
+#: codestyling-localization.php:2140
+msgid "non case-sensitive"
+msgstr "nesvarbu didžiosios ar mažosios raidės"
+
+#@ codestyling-localization
+#: codestyling-localization.php:1977
+#: codestyling-localization.php:1998
+msgid "or create the missing directory using FTP Access as:"
+msgstr "arba sukurti trūkstamą katalogą naudojant FTP failų saugyklos Prieigą:"
+
+#@ codestyling-localization
+#: codestyling-localization.php:135
+msgid "required"
+msgstr "privalomas"
+
+#@ codestyling-localization
+#: codestyling-localization.php:1234
+msgid "scan now"
+msgstr "peržvelgti dabar"
+
+#@ codestyling-localization
+#: codestyling-localization.php:2156
+msgid "scroll to top"
+msgstr "slinkti į viršų"
+
+#@ codestyling-localization
+#: codestyling-localization.php:3043
+#: codestyling-localization.php:3046
+#: codestyling-localization.php:3086
+msgid "translate with Google API"
+msgstr "išversti su Google API"
+
+#@ codestyling-localization
+#: codestyling-localization.php:1974
+msgid "try to create the WordPress language directory"
+msgstr "pamėginkite sukurti WordPress kalbos katalogą"
+
+#@ codestyling-localization
+#: codestyling-localization.php:2063
+#: codestyling-localization.php:2076
+#: includes/class-translationfile.php:789
+msgid "unknown"
+msgstr "nežinomas"
+
+#@ codestyling-localization
+#: codestyling-localization.php:3073
+#: codestyling-localization.php:3090
+msgid "« Save & Previous"
+msgstr "« Išsaugoti ir Ankstesnis"
+
+#@ codestyling-localization
+#: codestyling-localization.php:571
+msgid "μ Plugin"
+msgstr "μ Papildinys"
+
+#@ codestyling-localization
+#: codestyling-localization.php:1848
+msgid "μ Plugins"
+msgstr "μ Papildiniai"
+
+#@ codestyling-localization
+#: codestyling-localization.php:2076
+msgid "last written:"
+msgstr "paskutinį kartą parašyta:"
+
+#@ codestyling-localization
+#: codestyling-localization.php:2080
+msgid "Total"
+msgstr "Iš viso"
+
+#@ codestyling-localization
+#: codestyling-localization.php:2081
+msgid "Plural"
+msgstr "Daugiareikšmis"
+
+#@ codestyling-localization
+#: codestyling-localization.php:2082
+#: codestyling-localization.php:2693
+msgid "Context"
+msgstr "Kontekstas"
+
+#@ codestyling-localization
+#: codestyling-localization.php:2083
+msgid "Not translated"
+msgstr "Neišversta"
+
+#@ codestyling-localization
+#: codestyling-localization.php:2084
+msgid "Comments"
+msgstr "Komentarai"
+
+#@ codestyling-localization
+#: codestyling-localization.php:2085
+#: codestyling-localization.php:2675
+msgid "Code Hint"
+msgstr "Programos Kodo Patarimas"
+
+#@ codestyling-localization
+#: codestyling-localization.php:2674
+msgid "Comment"
+msgstr "Komentaras"
+
+#@ codestyling-localization
+#: codestyling-localization.php:2068
+msgid "<b>Hint:</b> The extended feature for textdomain separation shows at dropdown box <i>Textdomain</i> the pre-selected primary textdomain."
+msgstr "<b>Patarimas:</b> Išplėstinė ypatybė teksto adreso atskyrimui rodoma išskleidžiamajame langelyje <i>Textdomain</i> parinktas pirminis teksto adresas."
+
+#@ codestyling-localization
+#: codestyling-localization.php:2069
+msgid "All other additional contained textdomains occur at the source but will not be used, if not explicitely supported by this component!"
+msgstr "Visi kiti papildomi pateikti teksto adresai veikia pirminėje reikšmėje, bet nebus naudojami, jeigu nebus aiškiai palaikomi šio komponento!"
+
+#@ codestyling-localization
+#: codestyling-localization.php:2070
+msgid "Please contact the author, if some of the non primary textdomain based phrases will not show up translated at the required position!"
+msgstr "Jeigu kuri nors iš nepirminių teksto adresų frazių neatsiras reikiamoje vietoje, prašome susisiekti su autoriumi!"
+
+#@ codestyling-localization
+#: codestyling-localization.php:2071
+msgid "The Textdomain <i><b>default</b></i> always stands for the WordPress main language file, this could be either intentionally or accidentally!"
+msgstr "Teksto adresas <b><i>default</i></b> visuomet rodomas pagal pirminę WordPress kalbos rinkmeną. Tai gali nutikti ir nustatant tikslingai ir netyčia!"
+
+#@ codestyling-localization
+#: codestyling-localization.php:2074
+msgid "Textdomain:"
+msgstr "Teksto adresas:"
+
+#@ codestyling-localization
+#: includes/js-help-perlreg.php:4
+msgctxt "pcre"
+msgid "Component"
+msgstr "Komponentas"
+
+#@ codestyling-localization
+#: includes/js-help-perlreg.php:5
+msgctxt "pcre"
+msgid "Example"
+msgstr "Pavyzdys"
+
+#@ codestyling-localization
+#: includes/js-help-perlreg.php:6
+msgctxt "pcre"
+msgid "Description"
+msgstr "Aprašas"
+
+#@ codestyling-localization
+#: includes/js-help-perlreg.php:12
+#: includes/js-help-perlreg.php:17
+#: includes/js-help-perlreg.php:22
+#: includes/js-help-perlreg.php:27
+#: includes/js-help-perlreg.php:32
+#: includes/js-help-perlreg.php:37
+#: includes/js-help-perlreg.php:42
+#: includes/js-help-perlreg.php:47
+#: includes/js-help-perlreg.php:52
+#: includes/js-help-perlreg.php:112
+#: includes/js-help-perlreg.php:117
+#: includes/js-help-perlreg.php:122
+#: includes/js-help-perlreg.php:127
+msgctxt "pcre"
+msgid "out"
+msgstr "išvestis"
+
+#@ codestyling-localization
+#: includes/js-help-perlreg.php:13
+msgctxt "pcre"
+msgid "matches \"out\", but also \"timeout\", \"outbreak\", \"Route\" and \"gouty\"."
+msgstr "atitinka \"out\", taip pat \"timeout\", \"outbreak\", \"Route\" ir \"gouty\"."
+
+#@ codestyling-localization
+#: includes/js-help-perlreg.php:18
+msgctxt "pcre"
+msgid "matches \"out\" at start of string like \"out\", \"outbreak\", as long as this are the first words at string."
+msgstr "atitinka \"out\" pradžioje eilutės, pavyzdžiui \"out\", \"outbreak\", tol, kol tai yra pirmieji žodžiai eilutėje."
+
+#@ codestyling-localization
+#: includes/js-help-perlreg.php:23
+msgctxt "pcre"
+msgid "matches \"out\" at end of string like \"out\", \"timeout\" and \"burnout\" as long as this are the last words at string."
+msgstr "atitinka \"out\" eilutės pabaigoje, kaip \"out\", \"timeout\" ir \"burnout\" tol, kol tai yra paskutinieji eilutės žodžiai."
+
+#@ codestyling-localization
+#: includes/js-help-perlreg.php:28
+msgctxt "pcre"
+msgid "matches \"ou\", \"out\", \"outt\" and \"outttttt\", the char prior to asterisk can be repeated 0 to unlimited times."
+msgstr "atitinka \"ou\", \"out\", \"outt\" ir \"outttttt\", asterisk ženklų pirmenybė gali būti kartojama nuo 0 iki begalybės kartų."
+
+#@ codestyling-localization
+#: includes/js-help-perlreg.php:33
+msgctxt "pcre"
+msgid "matches \"outt\" and \"outttt\", the char prior to plus char have to be repeated at least one time or more often."
+msgstr "atitinka  \"outt\" ir \"outttt\", ženklų pirmenybė prieš pridėtinius ženklus gali būti kartojama bent vieną kartą arba dažniau."
+
+#@ codestyling-localization
+#: includes/js-help-perlreg.php:38
+msgctxt "pcre"
+msgid "matches \"rout\" and \"gout\", any char can be placed at this position."
+msgstr "atitinka \"rout\" ir \"gout\", šioje vietoje gali būti įrašytas bet koks ženklas."
+
+#@ codestyling-localization
+#: includes/js-help-perlreg.php:43
+msgctxt "pcre"
+msgid "matches \"timeout\" and \"Fallout\", any char sequence at this position. Is a combination of any char and 1 but upto many times."
+msgstr "atitinka \"timeout\" ir \"Fallout\", bet kokia ženklų seka šioje vietoje. Bet kokių ženklų derinys gali būti naudojamas daug kartų."
+
+#@ codestyling-localization
+#: includes/js-help-perlreg.php:48
+msgctxt "pcre"
+msgid "matches \"out\" as single word. \\b means word break."
+msgstr "atitinka \"out\", kaip vienintėlis žodis. \\b suprantamas kaip žodžio skirtukas."
+
+#@ codestyling-localization
+#: includes/js-help-perlreg.php:53
+msgctxt "pcre"
+msgid "matches \"out\" only inside words, like \"Route\" or \"gouty\". \\B means not word break."
+msgstr "atitinka \"out\" tik vidinėse žodžių dalyse, kaip \"Route\" arba \"gouty\". \\B nereiškia žodžio skirtuko."
+
+#@ codestyling-localization
+#: includes/js-help-perlreg.php:58
+msgctxt "pcre"
+msgid "matches any number. \\d means a numerical digit (0 to 9)"
+msgstr "atitinka bet kokį skaičių.  \\d nurodo skaitinę reikšmę (nuo 0 iki 9) "
+
+#@ codestyling-localization
+#: includes/js-help-perlreg.php:63
+msgctxt "pcre"
+msgid "matches \"-out\" at \"3-out\", any non number."
+msgstr "atitinka \"-out\" prie \"3-out\", bet koks ne skaičius."
+
+#@ codestyling-localization
+#: includes/js-help-perlreg.php:68
+msgctxt "pcre"
+msgid "matches form feed char."
+msgstr "atitinka perdavimo formos simbolį."
+
+#@ codestyling-localization
+#: includes/js-help-perlreg.php:73
+msgctxt "pcre"
+msgid "matches line feed char."
+msgstr "atitinka eilutės perdavimo simoblį."
+
+#@ codestyling-localization
+#: includes/js-help-perlreg.php:78
+msgctxt "pcre"
+msgid "matches carriage return char."
+msgstr "atitinka grįžimo į eilutės pradžią simbolį."
+
+#@ codestyling-localization
+#: includes/js-help-perlreg.php:83
+msgctxt "pcre"
+msgid "matches tabulator char."
+msgstr "atitinka tabuliatoriaus simbolį."
+
+#@ codestyling-localization
+#: includes/js-help-perlreg.php:88
+msgctxt "pcre"
+msgid "matches vertical tabulator char."
+msgstr "atitinka vertikalaus tabuliatoriaus simbolį."
+
+#@ codestyling-localization
+#: includes/js-help-perlreg.php:93
+msgctxt "pcre"
+msgid "matches any kind of whitespace and space char."
+msgstr "atitinka visus tarpų ir tuščios vietos simbolius."
+
+#@ codestyling-localization
+#: includes/js-help-perlreg.php:98
+msgctxt "pcre"
+msgid "matches any char, that is not a whitespace char."
+msgstr "atitinka bet kurį simbolį, kuris nėra tarpo simbolis."
+
+#@ codestyling-localization
+#: includes/js-help-perlreg.php:103
+msgctxt "pcre"
+msgid "matches any alphanumerical char and underscore (typical for programming syntax)."
+msgstr "atitinka bet kurį skaitinį arba raidinį ženklą ir pabraukimo brūkšnį (tipiška progravimo sintaksei)."
+
+#@ codestyling-localization
+#: includes/js-help-perlreg.php:108
+msgctxt "pcre"
+msgid "matches any char, that is not alphanumerical char and underscore (typical for illegal char detection at programming)."
+msgstr "atitinka bet kurį simbolį, kuris neturi skaitinės arba raidinės reikšmės ir nėra pabraukimo brūkšnys."
+
+#@ codestyling-localization
+#: includes/js-help-perlreg.php:113
+msgctxt "pcre"
+msgid "matches \"out\" and remembers matches internally. Upto 9 brackets are allowed per expression."
+msgstr "atitinka \"out\" ir įsimena atitikimus vidinėje atmintyje. Reiškinyje leidžiami ne daugiau nei 9 suskliaudimai."
+
+#@ codestyling-localization
+#: includes/js-help-perlreg.php:118
+msgctxt "pcre"
+msgid "matches \"aus\" as often it is contained at string. The match positions will be stored internally as array."
+msgstr "atitinka \"aus\" visuomet, kai tik jis egzistuoja eilutėje. Atitinkimo pozicijos bus laikomos viduje kaip masyvas."
+
+#@ codestyling-localization
+#: includes/js-help-perlreg.php:123
+msgctxt "pcre"
+msgid "matches \"out\", \"Out\" and \"OUT\", not case-sensitive match."
+msgstr "atitinka \"out\", \"Out\" ir \"OUT\", nesvarbu didžiosios ar mažosios raidės."
+
+#@ codestyling-localization
+#: includes/js-help-perlreg.php:128
+msgctxt "pcre"
+msgid "matches \"out\", as ofter occurs (g) and also non case-sensitive."
+msgstr "atitinka \"out\", dėl dažnai pasitaikančio ryšio, taip pat nesvarbu kokios raidės naudojamos - didžiosios ar mažosios."
+
+#@ codestyling-localization
+#: codestyling-localization.php:664
+msgid "Childtheme"
+msgstr "Pošablonis"
+
+#@ codestyling-localization
+#: codestyling-localization.php:671
+msgid "child theme of"
+msgstr "Pošalbonis nuo"
+
+#@ codestyling-localization
+#: codestyling-localization.php:819
+msgid "BuddyPress"
+msgstr "\"BuddyPress\""
+
+#@ codestyling-localization
+#: codestyling-localization.php:864
+msgid "bbPress"
+msgstr "\"bbPress\""
+
+#@ codestyling-localization
+#: codestyling-localization.php:1993
+msgid "The original bbPress component doesn't contain a language directory."
+msgstr "Originalus bbPress komponentas savyje neturi kalbos katalogo."
+
+#@ codestyling-localization
+#: codestyling-localization.php:1995
+msgid "try to create the bbPress language directory"
+msgstr "pamėginkite sukurti bbPress kalbos katalogą"
+
+#@ codestyling-localization
+#: codestyling-localization.php:1732
+msgid "You do not have the permission to create a new Language File Path.<br/>Please create the appropriated path using your FTP access."
+msgstr "Jūs neturite leidimo naujos Kalbos Rinkmenos Adreso kūrimui. <br/>Sukurkite naują priskirtą kelią, naudodamiesi FTP duomenų saugyklos prieiga."
+
+#@ codestyling-localization
+#: codestyling-localization.php:693
+msgid "<strong>Loading Issue: </strong>Author is using <em>load_textdomain</em> instead of <em>load_theme_textdomain</em> or <em>load_child_theme_textdomain</em> function. This may break behavior of WordPress, because some filters and actions won't be executed anymore. Please contact the Author about that."
+msgstr "<strong>Įkėlimo problema: </strong>Autorius naudoja <em>load_textdomain</em> vietoje <em>load_theme_textdomain</em> arba <em>load_child_theme_textdomain</em> funkcijos. Tai gali sutrikdyti WordPress darbą, kadangi kai kurie filtrai ir veiksmai nebegalės būti panaudoti/atlikti dar kartą. Dėl šio neskalndumo, susisiekite su autoriumi."
+
+#@ codestyling-localization
+#: codestyling-localization.php:744
+#, php-format
+msgid "<strong>Naming Issue: </strong>Author uses unsupported language file naming convention! Instead of example <em>de_DE.po</em> the non theme standard version <em>%s</em> has been used. If you translate this Theme, only renamed language files will be working!"
+msgstr "<strong>Įvardijimo problema: </strong>Autorius naudoja nesuprantamą kalbos rinkmenos sutartinį žymėjimą! Vietoje pavyzdžio <em>de_DE.po</em> buvo panaudota standartinė išskirtinai neapipavidalinta versija <em>%s</em>. Jeigu mėginate išversti šio apipavidalinimo tekstą, tik pervadintos kalbos rinkmenos bus veiksnios."
+
+#@ codestyling-localization
+#: codestyling-localization.php:1858
+#: codestyling-localization.php:1924
+msgid "Compatibility"
+msgstr "Suderinamumas"
+
+#@ codestyling-localization
+#: codestyling-localization.php:431
+msgid "<strong>Loading Issue: </strong>Author is using <em>load_textdomain</em> instead of <em>load_plugin_textdomain</em> function. This may break behavior of WordPress, because some filters and actions won't be executed anymore. Please contact the Author about that."
+msgstr "<strong>Įkėlimo problema: </strong>Autorius naudoja <em>load_textdomain</em> vietoje  <em>load_plugin_textdomain</em> funkcijos. Tai gali sutrikdyti WordPress darbą, kadangi kai kurie filtrai ir veiksmai nebegalės būti panaudoti/atlikti dar kartą. Dėl šio neskalndumo, susisiekite su autoriumi."
+
+#@ codestyling-localization
+#: codestyling-localization.php:805
+msgid "<strong>WooThemes Issue: </strong>The Author is known for not supporting a translatable backend. Please expect only translations for frontend or contact the Author for support!"
+msgstr "<strong>Woo Apipavidalinimo problema:</strong> Autorius nesuteikia vidinės pusės vertinių galimybės. Palaikomi tik išorinės pusės (sąsajos) vertimai. Jeigu reikalinga pagalba, susisiekite su autoriumi."
+
+#@ codestyling-localization
+#: codestyling-localization.php:1865
+msgid "You like it?"
+msgstr "Patinka šis papildinys?"
+
+#@ codestyling-localization
+#: codestyling-localization.php:1938
+msgid "Memory Warning"
+msgstr "Įspėjimas dėl Atminties būsenos"
+
+#@ codestyling-localization
+#: codestyling-localization.php:1939
+msgid "Since WordPress 3.x version it may require at least <strong>58MB</strong> PHP memory_limit! The reason is still unclear but it doesn't freeze anymore. Instead a error message will be shown and the scanning process aborts while reaching your limits."
+msgstr "Nuo WordPress 3.x versijos reikalinga minimum <strong>58 megabaitai</strong> PHP atminties. To priežastis nėra galutinai aiški, tačiau veikimo sutrikimų nebepastebėta. Vietoje klaidos žinutės, peržiūros procesas bus nutrauktas, kuomet atminties limitas pasiektas."
+
+#@ codestyling-localization
+#: codestyling-localization.php:1945
+msgid "Language Folder"
+msgstr "Kalbos Aplankas"
+
+#@ codestyling-localization
+#: codestyling-localization.php:1946
+msgid "The translation file folder is ambiguous, please select by clicking the appropriated language file folder or ask the Author about!"
+msgstr "Vertimo rinkmenos aplankas neturi vienos aiškios prasmės. Spragteldami pasirinkite tinkamą kalbos rinkmenos aplanką, arba pagalbos kreipkitės į Autorių!"
+
+#@ codestyling-localization
+#: codestyling-localization.php:3065
+#: codestyling-localization.php:3080
+msgid "Access Keys:"
+msgstr "Prieigos Raktai:"
+
+#@ codestyling-localization
+#. translators: plugin header field 'Name'
+#: codestyling-localization.php:0
+msgid "CodeStyling Localization"
+msgstr "CodeStyling Localization"
+
+#@ codestyling-localization
+#. translators: plugin header field 'PluginURI'
+#: codestyling-localization.php:0
+msgid "http://www.code-styling.de/english/development/wordpress-plugin-codestyling-localization-en"
+msgstr "http://www.code-styling.de/english/development/wordpress-plugin-codestyling-localization-en"
+
+#@ codestyling-localization
+#. translators: plugin header field 'Description'
+#: codestyling-localization.php:0
+msgid "Now you can freely manage, edit and modify your WordPress language translation files (*.po / *.mo) as usual. You won't need any additional editor have been installed. Also supports WPMU plugins, if WPMU versions has been detected."
+msgstr "Nuo šiol Jūs galite nevaržomai tvarkyti, redaguoti ir keisti savo WordPress kalbos vertimų rinkmenas  (*.po / *.mo), kaip esate įpratęs. Nereikalingas jokio kito redaktoriaus įdiegimas. Taip pat palaikomi WPMU papildiniai, jeigu įmanoma aptikti reikiamą WPMU versiją."
+
+#@ codestyling-localization
+#. translators: plugin header field 'Author'
+#: codestyling-localization.php:0
+msgid "Heiko Rabe"
+msgstr "Heiko Rabe"
+
+#@ codestyling-localization
+#. translators: plugin header field 'AuthorURI'
+#: codestyling-localization.php:0
+msgid "http://www.code-styling.de/english/"
+msgstr "http://www.code-styling.de/english/"
+
+#@ codestyling-localization
+#: codestyling-localization.php:473
+msgid "<strong>Full Encryped PHP Code: </strong>This plugin consists out of encryped code will be <strong>eval</strong>'d at runtime! It can't be checked against exploitable code pieces. That's why it will become potential target of hidden intrusion."
+msgstr "<strong>Pilnai užšifruotas PHP kodas:</strong> Šis papildinys susideda iš užšifruoto kodo <strong>apskaičiuoto</strong> paleidimo metu! Jis negali būti dar kartą sutikrintas su šiuo metu veikiančiais šifro fragmentais. Štai kodėl tai gali tapti potencialiu slapto įsibrovimo taikiniu."
+
+#@ codestyling-localization
+#: codestyling-localization.php:478
+msgid "<strong>Textdomain definition: </strong>This plugin provides a textdomain definition at plugin header fields but seems not to load any translation file. If it doesn't show your translation, please contact the plugin Author."
+msgstr "<strong>Teksto adreso apibrėžimas:</strong> Šis papildinys suteikia galimybę aprašyti teksto adresą papildinio puslapinės antraštės laukeliuose, bet neįkelia jokios vertimo rinkmenos. Jeigu Jums reikalingas vertimas nerodomas, susisiekite su papildinio Autoriumi."
+
+#@ codestyling-localization
+#: codestyling-localization.php:1861
+#: codestyling-localization.php:1931
+msgid "Security Risk"
+msgstr "Saugumo Pavojus"
+
+#@ codestyling-localization
+#: codestyling-localization.php:2086
+msgid "Trailing Space"
+msgstr "Galinis Tarpas"
+
+#@ codestyling-localization
+#: codestyling-localization.php:1605
+msgid "Your translation file doesn't support the <em>multiple textdomains in one translation file</em> extension.<br/>Please re-scan the related source files at the overview page to enable this feature."
+msgstr "Jūsų vertimo rinkmena nepalaiko <em>daugybės teksto adresų vienoje vertimų rinkmenoje</em> plėtinio. <br/> Kad suaktyvinti šią ypatybę, iš naujo peržvelkite susijusias pirmines rinkmenas apžvalgos puslapyje."
+
+#@ codestyling-localization
+#: codestyling-localization.php:1831
+msgid "enable low memory mode"
+msgstr "suaktyvinti silpnos atminties būseną"
+
+#@ codestyling-localization
+#: codestyling-localization.php:1832
+msgid "If your Installation is running under low remaining memory conditions, you will face the memory limit error during scan process or opening catalog content. If you hitting your limit, you can enable this special mode. This will try to perform the actions in a slightly different way but that will lead to a considerably slower response times but nevertheless gives no warranty, that it will solve your memory related problems at all cases."
+msgstr "Jeigu Jūsų Įdiegimo darbai vyksta silpnos atminties būsenoje, peržvelgimo arba katalogo atvėrimo procesų metu, pasitaikys atminties limito klaida. Pasiekęs šią ribą, galite suaktyvinti specialų rėžimą. Bus bandoma atlikti reikiamus veiksmus kitokiais būdais, tačiau tai nulems gerokai prastesnius reakcijos laikus. Bet kuriu atveju, garantijos, jog tai išspręs su serverio atmintimi susijusias problemas nėra."
+
+#@ codestyling-localization
+#: codestyling-localization.php:2061
+msgid "back to overview page &raquo;"
+msgstr "grįžti į apžvalgos puslapį &raquo;"
+
+#@ codestyling-localization
+#: codestyling-localization.php:2453
+#, php-format
+msgid "You are trying to rescan files which expands above your PHP Memory Limit at %s MB during the analysis.<br/>Please enable the <em>low memory mode</em> for scanning this component."
+msgstr "Jūs bandote iš naujo peržiūrėti rinkmenas, kurios viršija jūsų PHP Atminties Limitą %s megabaitais, analizės metu<br/> Suaktyvinkite <em>silpnos atminties rėžimą</em>, kad galėtume peržiūrėti šį komponentą."
+
+#@ codestyling-localization
+#: codestyling-localization.php:2614
+#, php-format
+msgid "You are trying to open a translation catalog which expands above your PHP Memory Limit at %s MB during read.<br/>Please enable the <em>low memory mode</em> for opening this components catalog."
+msgstr "Jūs bandote atverti vertimo katalogą, kuris viršija Jūsų PHP Atminties Limitą  %s megabaitais nuskaitymo metu. <br/>Suaktyvinkite  <em>silpnos atminties rėžimą</em>, kad galėtume peržiūrėti šio katalogo komponentus."
+
+#@ codestyling-localization
+#: codestyling-localization.php:506
+#: codestyling-localization.php:532
+msgid "<strong>Textdomain definition: </strong>There are problems to find the used textdomain. It has been taken from existing translation files. If it doesn't work with your install, please contact the Author of this plugin."
+msgstr "<strong>Tekstinio adreso aprašymas:</strong> Atsirado problemų, ieškant panaudoto teksto adreso. Panaudota informacija iš jau sukurtų vertimų rinkmenų. Jeigu kyla problemų diegiant, susisiekite su šio papildinio Autoriumi."
+
+#@ codestyling-localization
+#: codestyling-localization.php:1705
+msgid "You are trying to create an empty mo-file without any translations. This is not possible, please translate at least one entry."
+msgstr "Jūs bandote sukurti tuščią .mo rinkmeną be jokių vertimų. Tai neįmanoma! Išverskite bent vieną elementą."
+
+#@ codestyling-localization
+#: codestyling-localization.php:1836
+msgid "Attention:"
+msgstr "Dėmesio:"
+
+#@ codestyling-localization
+#: codestyling-localization.php:1836
+msgid "You have a running version of WP e-Commerce and it has been programmed to deactivate the javascript library prototype.js at each WordPress backend page! I did a work arround that, in case of issues read my article: <a href=\"http://www.code-styling.de/english/wp-e-commerce-breaks-intentionally-other-plugins-or-themes\">WP e-Commerce breaks intentionally other Plugins or Themes</a>"
+msgstr "Dabar aktyviai veikianti WordPress e-Komercijos versija sukurta taip, jog kiekvieno WordPress puslapio vidinėje pusėje JavaScript prototipų biblioteka yra deaktyvuojama! Autorius tai padarė, kad būtų išvengtos įvairiausios problemos. Plačiau skaitykite: <a href=\"http://www.code-styling.de/english/wp-e-commerce-breaks-intentionally-other-plugins-or-themes\">WordPress e-Komercijos sprendimas specialiai nutraukia kitų papildinių ir apipavidalinimų veiklą</a>"
+
+#@ codestyling-localization
+#. translators: plugin header field 'Version'
+#: codestyling-localization.php:0
+msgid "1.99.14"
+msgstr "1.99.14"
+
+#@ codestyling-localization
+#: codestyling-localization.php:699
+msgid "<strong>Textdomain Naming Issue: </strong>Author uses a variable to load the textdomain. It will be assumed to be equal to theme name now."
+msgstr "<strong>Teksto Adreso Įvardijimo problema:</strong> Autorius naudoja kintamają teksto adreso įkrovimui. Tai nuo šiol bus prilygintas apipavidilinimo pavadinimui."
+
+#@ codestyling-localization
+#: codestyling-localization.php:798
+msgid "<strong>Textdomain Naming Issue: </strong>Author uses a variable to define the textdomain constant. It will be assumed to be equal to theme name now."
+msgstr "<strong>Teksto Adreso Įvardijimo problema:</strong> Autorius naudoja kintamają teksto adreso konstantos apibrėžimui. Tai nuo šiol bus prilyginta apipavidilinimo pavadinimui."
+

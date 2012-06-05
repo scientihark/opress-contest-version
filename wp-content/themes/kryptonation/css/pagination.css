@@ -1,0 +1,20 @@
+
+div.pagination { 
+	padding: 20px; width: 920px;
+	position: absolute; bottom: 0; border-top: 1px solid #e3e3e3;
+}
+div.pagination span, div.pagination a {
+	display: block; float: left; height: 26px;
+	margin: 0 10px 0 0; padding: 0 10px; text-decoration: none;
+	color: #666;
+	font: bold 11px/26px Helvetica, Arial, sans-serif; text-transform: uppercase;
+	border: 1px solid #e3e3e3;
+}
+
+div.pagination span.pages { color: #666; }
+div.pagination span.pages span.n {
+	display: inline; color: #666; margin: 0; padding: 0; border: 0 none; float: none;
+}
+div.pagination span.current, div.pagination a:hover, div.pagination a:active {
+	color: #000;
+}

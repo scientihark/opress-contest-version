@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="jquery.min.js"></script>
+</head>
+<body>
+<p><input name="name" type="text" id="app-add-name" value="your pdf name"/></p>
+<p><input name="name-full" type="text" id="app-add-name-full" value="your file path"/></p>
+<p>class: 1:HTML5/CANVAS/CSS3/WEBGL 2:-JAVA- 3:-PHP/Python/Ruby- 4:-c/c++- 5:-Android- 6:HADOOP 0:Others</p>
+<p><input name="class" type="text" id="app-add-class" value="your app class"/></p>
+<p>e.g. XXXXXXXXXXXXXXXXXXXXXXXXXXXXX </p>
+<p><input name="des" type="text" id="app-add-des" value="your app description"/></p>
+<p><input name="uploader" type="text" id="app-add-uploader" value="uploader"/></p>
+<p><div id="call-back-statue">Loading...</div></p>
+<a href="#2" onclick="javascript:postapp();">post</a>
+<script type="text/javascript">
+$dlmylink=0;
+function postapp()
+{
+	$name=document.getElementById('app-add-name').value;
+	$name_full=document.getElementById('app-add-name-full').value;
+	$classs=document.getElementById('app-add-class').value;
+	$des=document.getElementById('app-add-des').value;
+	$uploader=document.getElementById('app-add-uploader').value;
+	if($name==""|$name_full==""|$classs==""|$des==""|$uploader=="")
+	{
+		alert('please fill all the blanks!');
+	}
+	if($classs=="1"|$classs=="2"|$classs=="3"|$classs=="4"|$classs=="5"|$classs=="6"|$classs=="0")
+	{
+		getappinfo($name,$name_full,$classs,$des,$uploader);
+	}
+	else
+	{
+		alert('class must be 1/2/3/4/5/6/0 !');
+	}
+}
+function getappinfo($name2,$name_full2,$classs2,$des2,$uploader2){
+$.ajax({
+                 type:"POST",
+                 dataType:"html",
+                 url:"add.php",
+                 timeout:80000,	   //ajax请求超时时间80秒
+                 data:{name:$name2,name_full:$name_full2,classs:$classs2,des:$des2,uploader:$uploader2}, //40秒后无论结果服务器都返回数据
+		success:function(data,textStatus){
+                     //从服务器得到数据，显示数据并继续查询
+			document.getElementById("call-back-statue").innerHTML=data;	
+                 },
+				 //Ajax请求超时，继续查询
+	             error:function(XMLHttpRequest,textStatus,errorThrown){
+	                     if(textStatus=="timeout"){
+				document.getElementById("call-back-statue").innerHTML="time out!";
+	                     }
+	             }
+                 
+});
+};
+</script>
+</body>
+
+</html>

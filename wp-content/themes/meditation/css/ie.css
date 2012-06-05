@@ -1,0 +1,40 @@
+#header-description {
+-ms-filter: 'alpha(opacity=70)';
+filter: alpha(opacity=70);
+}
+#nav ul ul li a {
+width: 100%;
+}
+ul.sidebar li {
+display: inline-block;
+}
+ul.sidebar ul,
+ul.sidebar .widget-inner div {
+width: 220px;
+}
+ul.sidebar ul ul,
+ul.sidebar .widget-inner div div {
+width: auto;
+}
+.authorinfo {
+margin-left: -140px;
+}
+.comment-content {
+height: 120px;
+}
+.layout-wtt .storycontent,
+.layout-twt .storycontent {
+width: 710px;
+}
+.layout-tw .storycontent,
+.layout-wt .storycontent {
+width: 965px;
+}
+.layout-wtt .comment-text,
+.layout-twt .comment-text {
+width: 550px;
+}
+.layout-tw .comment-text,
+.layout-wt .comment-text {
+width: 805px;
+}

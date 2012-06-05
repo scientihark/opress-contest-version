@@ -1,0 +1,21 @@
+/*
+Theme Name: Kryptonation
+Description: http://www.paddsolutions.com/wordpress-theme-kryptonation/
+Description: Kryptonation is a freemium WordPress theme. This special WordPress theme is packed with a better framework, an admin options panel and an awesome design to boot. Download more <a href="http://www.paddsolutions.com">free WordPress Themes</a>.
+Version: 1.0
+Author: Padd Solutions
+Author URI: http://www.paddsolutions.com
+*/
+
+@import 'css/required.css';
+@import 'css/typography.css';
+@import 'css/layout.css';
+@import 'css/navigation.css';
+@import 'css/pagination.css';
+@import 'css/color.css';
+@import 'css/slideshow.css';
+@import 'css/tabs.css';
+
+
+
+

@@ -1,0 +1,63 @@
+# Translation of the WordPress plugin BuddyPress xProfiles ACL bleeding by NetTantra.
+# Copyright (C) 2011 NetTantra
+# This file is distributed under the same license as the BuddyPress xProfiles ACL.
+# NetTantra <info@nettantra.com>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: BuddyPress xProfiles ACL\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/buddypress-xprofiles-acl\n"
+"POT-Creation-Date: 2010-04-23 17:18+0000\n"
+"PO-Revision-Date: 2011-01-26 13:59+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: buddypress-xprofiles-acl.php:20
+msgid "<strong>BuddyPress xProfiles ACL</strong> plugin requires the <strong>BuddyPress</strong> Plugin to be activated and needs <strong>BuddyPress Extended Profiles</strong> component to be enabled."
+msgstr "<strong> BuddyPress xProfiles ACL </ strong> plugin nécessite la <strong> BuddyPress </ strong> Plugin pour être activé et les besoins <strong> BuddyPress étendue profils </ strong> composant à être activé."
+
+#: buddypress-xprofiles-acl.php:20
+msgid "TEST"
+msgstr "SETS"
+
+#: buddypress-xprofiles-acl.php:71
+msgid "The <strong>Base</strong> profile group cannot be removed from a role."
+msgstr "Le <strong> Base </ strong> profil du groupe ne peut pas être supprimée d'un rôle."
+
+#: buddypress-xprofiles-acl.php:93
+msgid "Are you sure you want to remove this Profile Group from this role?"
+msgstr "Etes-vous sûr de vouloir supprimer ce groupe le profil de ce rôle?"
+
+#: buddypress-xprofiles-acl.php:111
+msgid "Assign Profile Groups to User Roles"
+msgstr "Groupes Profil assigner à des rôles d'utilisateur"
+
+#: buddypress-xprofiles-acl.php:115
+msgid "Role"
+msgstr "Rôle"
+
+#: buddypress-xprofiles-acl.php:116
+msgid "xProfile Field Groups"
+msgstr "xProfile groupes sur le terrain"
+
+#: buddypress-xprofiles-acl.php:137
+msgid "Remove Profile Group"
+msgstr "Supprimer le groupe le profil"
+
+#: buddypress-xprofiles-acl.php:153
+msgid "No more groups available"
+msgstr "Pas de groupes plus disponible"
+
+#: buddypress-xprofiles-acl.php:155
+#: buddypress-xprofiles-acl.php:166
+msgid "Add"
+msgstr "Ajouter"
+
+#: buddypress-xprofiles-acl.php:167
+msgid "Cancel"
+msgstr "Annuler"
+
+

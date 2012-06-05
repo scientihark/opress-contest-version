@@ -1,0 +1,41 @@
+
+/* Layout
+-----------------------------------------*/
+div#menubar { height: 55px; }
+div#menubar h3 { display: none; }
+div#menubar ul { display: block; margin: 0; padding: 0 1px 0 0; list-style: none; height: 55px; float: left; }
+div#menubar ul li { display: block; margin: 0; padding: 0 1px 0 0; float: left; height: 55px; }
+div#menubar ul ul { 
+	position: absolute; display: none;  width: 200px; float: none; margin: 0; height: auto; z-index: 9999999;
+}
+div#menubar ul li a { display: block; margin: 0; padding: 5px 20px 10px 20px; }
+div#menubar ul li:hover ul, div#menubar ul li.hover ul { display: block; z-index: 999999; float: none; }
+div#menubar ul ul li { padding: 0; margin: 0 20px; float: none; width: auto; height: auto; }
+div#menubar ul ul li a { padding: 0 0 2px 0; margin: 0; float: none; width: auto; height: auto; }
+div#menubar ul ul ul { margin: -32px 0 0 180px; }
+
+/* Colors and Images
+-----------------------------------------*/
+div#menubar { background: transparent url('../images/bg-menubar.png') left bottom repeat-x; }
+div#menubar ul { background: transparent url('../images/bg-menubar-list-1.png') right top no-repeat; }
+div#menubar ul li { background: transparent url('../images/bd-menubar-item-1.png') right top no-repeat; }
+div#menubar ul li a { color: #ddd; text-shadow: #000 1px 1px; background: transparent url('../images/bg-menubar-item-1.png') left top repeat-x; }
+div#menubar ul li:hover a { color: #ddd; background-position: left bottom; } 
+div#menubar ul li.current-menu-item a { color: #ddd; background-position: left bottom; }
+
+div#menubar ul li:hover ul, div#menubar ul li.hover ul { background: transparent url('../images/bg-menubar-list-2.png') left top repeat; }
+div#menubar ul li:hover ul li, div#menubar ul li.hover ul li { background: transparent none; }
+div#menubar ul li:hover ul li a, div#menubar li.hover ul li a { color: #ddd; background: transparent url('../images/bd-menubar-item-2.png') left bottom repeat-x; } 
+div#menubar ul li:hover ul li:hover a, div#menubar ul li.hover ul li.hover a { color: #fff; }
+div#menubar ul li:hover ul li.li-current-menu-item a, div#menubar ul li.hover ul li.current-menu-item a { color: #fff; }
+div#menubar ul li:hover ul li.current_page_item a, div#menubar ul li.hover ul li.current_page_item a { color: #fff; }
+div#menubar ul li:hover ul li:hover ul li a, div#menubar ul li.hover li.hover li a { color: #ddd; }
+div#menubar ul li:hover ul li:hover ul li:hover a, div#menubar ul li.hover ul li.hover ul li.hover a { color: #fff; }
+div#menubar ul li:hover ul li:hover ul li.current-menu-item a, div#menubar ul li.hover ul li.hover ul li.current-menu-item a { color: #fff; }
+div#menubar ul li:hover ul li:hover ul li.current_page_item a, div#menubar ul li.hover li.hover ul li.current_page_item a { color: #fff; }
+
+/* Typography
+-----------------------------------------*/
+div#menubar ul li { font: bold 14px/40px 'Helvetica Neue', Helveticam Arial, sans-serif; }
+div#menubar ul li a { font-weight: bold; text-decoration: none; }
+div#menubar ul ul li { font-size: 12px; line-height: 30px; }

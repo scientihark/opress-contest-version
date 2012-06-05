@@ -1,0 +1,76 @@
+/*
+Section: Typography
+*/
+
+/* HTML Tag selectors
+-----------------------------------------*/
+body { font: normal 12px/18px 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+input, select, option { font: normal 12px/12px  'Helvetica Neue', Helvetica, Arial, sans-serif; }
+textarea { font: normal 12px/18px  'Helvetica Neue', Helvetica, Arial, sans-serif; }
+blockquote { font-style: italic; }
+h1, h2, h3, h4, h5, h6 { font-family: Arvo, serif; }
+a:link, a:visited { font-weight: normal; text-decoration: underline; }
+a:hover, a:active { font-weight: normal; text-decoration: none; }
+
+/* Class selectors
+-----------------------------------------*/
+
+/* Header
+-----------------------------------------*/
+div#header .box-search input { font: italic 12px/12px Arvo, serif; }
+div#header .box-search button { font: normal 12px/12px 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+
+
+/* Featured
+-----------------------------------------*/
+div#featured p { font: bold 14px/26px Arvo, serif; }
+
+/* Post 
+-----------------------------------------*/
+.hentry .title h1 { font: bold 24px/28px Arvo, serif; }
+.hentry .title h2 { font: bold 16px/18px Arvo, serif; }
+.hentry .title h2 a { font: bold 16px/18px Arvo, serif; text-decoration: none; }
+.hentry .breadcrumb { font: normal 11px/34px Helvetica, Arial, sans-serif; }
+.hentry .breadcrumb a { text-decoration: none; }
+.hentry .breadcrumb a:hover { text-decoration: underline; }
+.hentry .meta p { font: italic 10px/14px Verdana, sans-serif; }
+.hentry .meta p a { text-decoration: none; }
+
+/* Post Details
+-----------------------------------------*/
+.content-single .hentry .post-box .title h2 { font: bold 24px/28px Arvo, serif; }
+.content-single .hentry .post-box .title p { font: normal 14px/18px Arvo, serif; font-style: italic; }
+.content-single .hentry .post-box-related .interior a { font: bold 11px/15px Helvetica, Arial, sans-serif; text-decoration: none; }
+.content-single .hentry .post-box-related .interior a:hover { text-decoration: underline; }
+
+/* Comments
+-----------------------------------------*/
+div.comment .comment-author .author { font-weight: bold; }
+div.comment .comment-author .author a { font-weight: bold; }
+div.comment .comment-author .comment-avatar { margin: 0 10px 0 0; float: left; }
+div.comment .comment-author .comment-meta .time { font: normal 10px/14px Helvetica, Arial, sans-serif; }
+div.comment .comment-author { font: normal 12px/18px 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+div.comment .comment-actions { font: normal 10px/18px 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+div.comment .comment-actions a { text-decoration: none; }
+div.comment .comment-actions a:hover { text-decoration: underline; }
+
+/* Comment Form
+-----------------------------------------*/
+
+
+/* Sidebar
+-----------------------------------------*/
+div#sidebar .box a { text-decoration: none; }
+div#sidebar .box .title h3 { font: bold 14px/18px Arvo, serif; text-transform: uppercase; }
+div#sidebar .box-search input { font: italic 10px/12px 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+div#sidebar .box-tweet a { text-decoration: none; }
+div#sidebar .box-tweet a:hover { text-decoration: underline; }
+
+
+/* Footer
+-----------------------------------------*/
+div#footer p { font: normal 10px/14px 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+div#footer p a { text-decoration: none; }
+div#footer p a:hover { text-decoration: underline; }
+div#footer p.copyright { float: left; }
+div#footer p.annotation { float: right; }

@@ -1,0 +1,277 @@
+# Japanese (ja) translation for Auto ThickBox Plus
+# Copyright (C) 2010-2012 attosoft <http://attosoft.info/en/>
+# This file is distributed under the same license as the Auto ThickBox Plus package.
+# attosoft <contact@attosoft.info>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Auto ThickBox Plus 1.3\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/auto-thickbox-plus\n"
+"POT-Creation-Date: 2012-03-24 10:13+0900\n"
+"PO-Revision-Date: 2012-03-24 15:55+0900\n"
+"Last-Translator: attosoft <contact@attosoft.info>\n"
+"Language-Team: attosoft <http://attosoft.info/en/>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Japanese\n"
+"X-Poedit-Country: JAPAN\n"
+
+#: auto-thickbox.php:5
+msgid "Overlays linked image, inline, iFrame and AJAX content on the page in simple & fast effects. (improved version of Auto Thickbox plugin)"
+msgstr "リンク先の画像やインライン, iFrame, AJAX コンテンツをシンプルかつ軽快な効果でポップアップ表示する (Auto Thickbox プラグインの改良版)"
+
+#: auto-thickbox-options.php:69
+msgid "Default Display Style"
+msgstr "デフォルト表示スタイル"
+
+#: auto-thickbox-options.php:72
+msgid "Single Image (explicitly specify a@rel attribute as needed)"
+msgstr "個別表示 (必要に応じて明示的に a@rel 属性を指定する)"
+
+#: auto-thickbox-options.php:74
+msgid "Gallery Images (automatically set a@rel attribute in 'gallery-id' format)"
+msgstr "スライド表示 (自動的に gallery-id 形式の a@rel 属性が付加される)"
+
+#: auto-thickbox-options.php:78
+msgid "ThickBox on Text Links"
+msgstr "テキストリンクへの ThickBox 適用"
+
+#: auto-thickbox-options.php:81
+msgid "Auto (automatically set a@class=&quot;thickbox&quot;)"
+msgstr "自動 (自動的に a@class=&quot;thickbox&quot; が付加される)"
+
+#: auto-thickbox-options.php:83
+msgid "Manual (explicitly specify a@class=&quot;thickbox&quot; as needed)"
+msgstr "手動 (必要に応じて明示的に a@class=&quot;thickbox&quot; を指定する)"
+
+#: auto-thickbox-options.php:87
+msgid "Auto Resize"
+msgstr "自動リサイズ"
+
+#: auto-thickbox-options.php:94
+msgid "ThickBox Resources"
+msgstr "ThickBox リソース"
+
+#: auto-thickbox-options.php:97
+msgid "Use WordPress built-in thickbox.js/css (some extra features will be disabled)"
+msgstr "WordPress に付属している thickbox.js/css を利用する (いくつかの拡張機能は無効化される)"
+
+#: auto-thickbox.php:353
+msgid "Support"
+msgstr "サポート"
+
+#: auto-thickbox.php:536
+msgid "Contact Me"
+msgstr "問い合わせ"
+
+#: auto-thickbox.php:355
+msgid "Donate"
+msgstr "寄付"
+
+#: auto-thickbox.php:8
+msgid "http://attosoft.info/en/"
+msgstr "http://attosoft.info/"
+
+#: auto-thickbox.php:354
+#: auto-thickbox.php:355
+msgid "http://attosoft.info/blog/en/"
+msgstr "http://attosoft.info/blog/"
+
+#: auto-thickbox.php:4
+msgid "http://attosoft.info/blog/en/auto-thickbox-plus/"
+msgstr "http://attosoft.info/blog/auto-thickbox-plus/"
+
+#: auto-thickbox-options.php:110
+msgid "Mouse Click"
+msgstr "マウスクリック"
+
+#: auto-thickbox.php:531
+msgid "Loop"
+msgstr "ループ"
+
+#: auto-thickbox-options.php:137
+msgid "Clickable Range"
+msgstr "クリック範囲"
+
+#: auto-thickbox-options.php:156
+msgid "Mouse Wheel"
+msgstr "マウスホイール"
+
+#: auto-thickbox-options.php:206
+#: auto-thickbox-options.php:222
+msgid "Space"
+msgstr "スペース"
+
+#: auto-thickbox-options.php:167
+#: auto-thickbox-options.php:177
+#: auto-thickbox-options.php:277
+#: auto-thickbox-options.php:380
+#: auto-thickbox-options.php:392
+#: auto-thickbox-options.php:423
+#: auto-thickbox-options.php:450
+#: auto-thickbox-options.php:486
+msgid "Window"
+msgstr "ウィンドウ"
+
+#: auto-thickbox-options.php:166
+msgid "Drag &amp; Drop"
+msgstr "ドラッグ＆ドロップ"
+
+#: auto-thickbox-options.php:170
+#: auto-thickbox-options.php:180
+msgid "Move"
+msgstr "移動"
+
+#: auto-thickbox-options.php:172
+#: auto-thickbox-options.php:182
+msgid "Resize"
+msgstr "リサイズ"
+
+#: auto-thickbox-options.php:449
+msgid "Border Radius"
+msgstr "角の丸み"
+
+#: auto-thickbox-options.php:463
+msgid "Opacity"
+msgstr "不透明度"
+
+#: auto-thickbox-options.php:485
+msgid "Box Shadow"
+msgstr "ドロップシャドウ効果 (ボックス)"
+
+#: auto-thickbox-options.php:494
+msgid "Text Shadow"
+msgstr "ドロップシャドウ効果 (テキスト)"
+
+#: auto-thickbox-options.php:618
+msgid "Button"
+msgstr "ボタン"
+
+#: auto-thickbox-options.php:276
+msgid "https://developer.mozilla.org/en/CSS/position"
+msgstr "http://www.htmq.com/style/position.shtml"
+
+#: auto-thickbox-options.php:286
+msgid "https://developer.mozilla.org/en/CSS/font-family"
+msgstr "http://www.htmq.com/style/font-family.shtml"
+
+#: auto-thickbox-options.php:304
+msgid "https://developer.mozilla.org/en/CSS/font-size"
+msgstr "http://www.htmq.com/style/font-size.shtml"
+
+#: auto-thickbox-options.php:325
+msgid "https://developer.mozilla.org/en/CSS/color"
+msgstr "http://www.htmq.com/style/color.shtml"
+
+#: auto-thickbox-options.php:355
+msgid "https://developer.mozilla.org/en/CSS/background-color"
+msgstr "http://www.htmq.com/style/background-color.shtml"
+
+#: auto-thickbox-options.php:415
+msgid "https://developer.mozilla.org/en/CSS/margin"
+msgstr "http://www.htmq.com/style/margin.shtml"
+
+#: auto-thickbox-options.php:422
+msgid "https://developer.mozilla.org/en/CSS/border"
+msgstr "http://www.htmq.com/style/border.shtml"
+
+#: auto-thickbox-options.php:449
+msgid "https://developer.mozilla.org/en/CSS/border-radius"
+msgstr "http://www.htmq.com/css3/border-radius.shtml"
+
+#: auto-thickbox-options.php:463
+msgid "https://developer.mozilla.org/en/CSS/opacity"
+msgstr "http://www.htmq.com/css3/opacity.shtml"
+
+#: auto-thickbox-options.php:485
+msgid "https://developer.mozilla.org/en/CSS/box-shadow"
+msgstr "http://www.htmq.com/css3/box-shadow.shtml"
+
+#: auto-thickbox-options.php:494
+msgid "https://developer.mozilla.org/en/CSS/text-shadow"
+msgstr "http://www.htmq.com/css3/text-shadow.shtml"
+
+#: auto-thickbox-options.php:19
+msgid "Effect"
+msgstr "効果"
+
+#: auto-thickbox-options.php:19
+msgid "beta"
+msgstr "ベータ"
+
+#: auto-thickbox.php:534
+msgid "Open"
+msgstr "開く"
+
+#: auto-thickbox-options.php:653
+#: auto-thickbox-options.php:666
+#: auto-thickbox-options.php:679
+msgid "Zoom"
+msgstr "ズーム"
+
+#: auto-thickbox-options.php:655
+#: auto-thickbox-options.php:668
+#: auto-thickbox-options.php:681
+msgid "Slide"
+msgstr "スライド"
+
+#: auto-thickbox-options.php:657
+#: auto-thickbox-options.php:670
+#: auto-thickbox-options.php:683
+msgid "Fade"
+msgstr "フェード"
+
+#: auto-thickbox-options.php:676
+msgid "Transition"
+msgstr "切り替え"
+
+#: auto-thickbox-options.php:689
+msgid "Speed"
+msgstr "スピード"
+
+#: auto-thickbox-options.php:692
+msgid "Fast"
+msgstr "速い"
+
+#: auto-thickbox-options.php:694
+msgid "Normal"
+msgstr "普通"
+
+#: auto-thickbox-options.php:696
+msgid "Slow"
+msgstr "遅い"
+
+#: auto-thickbox-options.php:282
+msgid "Absolute"
+msgstr "絶対配置"
+
+#: auto-thickbox-options.php:362
+#: auto-thickbox-options.php:374
+#: auto-thickbox-options.php:386
+#: auto-thickbox-options.php:398
+#: auto-thickbox-options.php:410
+#: auto-thickbox-options.php:467
+#: auto-thickbox-options.php:478
+msgid "Transparent"
+msgstr "透過"
+
+#: auto-thickbox-options.php:469
+#: auto-thickbox-options.php:480
+msgid "Opaque"
+msgstr "不透過"
+
+#: auto-thickbox-options.php:576
+#: auto-thickbox-options.php:585
+#: auto-thickbox-options.php:594
+#: auto-thickbox-options.php:603
+#: auto-thickbox-options.php:612
+#: auto-thickbox-options.php:621
+#: auto-thickbox-options.php:630
+msgid "Select a File"
+msgstr "ファイルを選択"
+
+#: auto-thickbox-options.php:415
+msgid "Margin"
+msgstr "余白"
+

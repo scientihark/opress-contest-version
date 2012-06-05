@@ -1,0 +1,159 @@
+
+#container {
+	width:580px;
+	padding:10px;
+	margin:0 auto;
+	position:relative;
+	z-index:0;s
+}
+
+#example {
+	width:600px;
+	height:350px;
+	position:relative;
+}
+
+#ribbon {
+	position:absolute;
+	top:-3px;
+	left:-15px;
+	z-index:500;
+}
+
+#frame {
+	position:absolute;
+	z-index:0;
+	width:739px;
+	height:341px;
+	top:-3px;
+	left:-80px;
+}
+
+/*
+	Slideshow
+*/
+
+
+/*
+	Slides container
+	Important:
+	Set the width of your slides container
+	Set to display none, prevents content flash
+*/
+
+.slides_container {
+	overflow:hidden;
+	position:relative;
+	display:none;
+}
+
+/*
+	Each slide
+	Important:
+	Set the width of your slides
+	If height not specified height will be set by the slide content
+	Set to display block
+*/
+
+.slides_container a {
+	width:704px;
+	height:270px;
+	display:block;
+}
+
+.slides_container a img {
+	display:block;
+}
+
+/*
+	Next/prev buttons
+*/
+
+#slides .next, #slides .prev, #slides-video .next, #slides-video .prev{
+	position:absolute;
+	top:145px;
+	left:-86px;
+	width:56px;
+	height:56px;
+	display:block;
+	z-index:101;
+}
+
+#slides-video .next, #slides-video .prev{
+    top:169px;
+}
+
+
+
+#slides .next, #slides-video .next {
+	left:726px;
+}
+
+#slides-video .slides_container img{
+    cursor: url(../img/cursor_p.png) 0 0, pointer;
+}
+
+/*
+	Pagination
+*/
+
+.pagination {
+    position: absolute;
+    left:50%;
+    margin-top:-5px;
+	/*margin:0px auto 0;*/
+	/*width:129px;*/
+}
+
+.pagination li {
+	float:left;
+	margin:0 1px;
+	list-style:none;
+}
+
+.pagination li a {
+	display:block;
+	width:12px;
+	height:0;
+	padding-top:12px;
+	background-image:url(../img/pagination.png);
+	background-position:0 0;
+	float:left;
+	overflow:hidden;
+}
+
+.pagination li.current a {
+	background-position:0 -12px;
+}
+
+.btnPrevPhoto, .btnNextPhoto, .btnPrevVideo, .btnNextVideo{
+	width:56px;
+	height:56px;
+	border-radius:32px;
+	-webkit-border-radius:32px;
+	-moz-border-radius:32px;
+	border:4px solid #fff;
+}
+
+
+.rollbtnPrevPhoto, .rollbtnNextPhoto, .rollbtnPrevVideo, .rollbtnNextVideo{
+	height:56px;
+	width:56px;
+	overflow:hidden;
+	border-radius: 28px;
+	-webkit-border-radius: 28px;
+	-moz-border-radius: 28px;
+	margin-left: 4px;
+	margin-top: -60px;
+	overflow: hidden;
+}
+
+.rollbtnPrevPhoto img, .rollbtnPrevVideo img
+{
+	margin-left:-63px;
+}
+
+.rollbtnNextPhoto img, .rollbtnNextVideo img
+{
+	margin-left:0;
+}

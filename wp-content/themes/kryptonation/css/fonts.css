@@ -1,0 +1,61 @@
+
+
+/* Bold Face
+-----------------------------------------*/
+@font-face {
+	font-family: 'Arvo';
+	src: url('../fonts/arvo-bold.eot');
+	font-style: normal;
+	font-weight: 700;
+}
+@font-face {
+	font-family: 'Arvo';
+	src: url(//:) format('no404'), url('../fonts/arvo-bold.woff') format('woff'), url('../fonts/arvo-bold.ttf') format('truetype'), url('../fonts/arvo-bold.svg#webfontJV84zI5j') format('svg');
+	font-style: normal;
+	font-weight: bold;
+}
+
+/* Italic Face
+-----------------------------------------*/
+@font-face {
+	font-family: 'Arvo';
+	src: url('../fonts/arvo-italic.eot');
+	font-style: italic;
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'Arvo';
+	src: url(//:) format('no404'), url('../fonts/arvo-italic.woff') format('woff'), url('../fonts/arvo-italic.ttf') format('truetype'), url('../fonts/arvo-italic.svg#webfonthKxgSyYZ') format('svg');
+	font-style: italic;
+	font-weight: normal;
+}
+
+/* Bold Italic Face
+-----------------------------------------*/
+@font-face {
+	font-family: 'Arvo';
+	src: url('../fonts/arvo-bolditalic.eot');
+	font-style: italic;
+	font-weight: 700;
+}
+@font-face {
+	font-family: 'Arvo';
+	src: url(//:) format('no404'), url('../fonts/arvo-bolditalic.woff') format('woff'), url('../fonts/arvo-bolditalic.ttf') format('truetype'), url('../fonts/arvo-bolditalic.svg#webfont5UWZUboG') format('svg');
+	font-style: italic;
+	font-weight: bold;
+}
+
+/* Normal
+-----------------------------------------*/
+@font-face {
+	font-family: 'Arvo';
+	src: url('../fonts/arvo-normal.eot');
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'Arvo';
+	src: url(//:) format('no404'), url('../fonts/arvo-normal.woff') format('woff'), url('../fonts/arvo-normal.ttf') format('truetype'), url('../fonts/arvo-normal.svg#webfontJOWxQLX2') format('svg');
+	font-style: normal;
+	font-weight: normal;
+}

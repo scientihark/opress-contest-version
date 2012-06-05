@@ -1,0 +1,12 @@
+
+.aligncenter, div.aligncenter { display: block; margin: 0 auto 16px auto; }
+.alignleft { float: left; margin: 0 7px 7px 0; }
+.alignright { float: right; margin: 0 0 7px 7px; }
+
+.content-singular img { border: 1px solid #ddd; background: #fff none; padding: 6px; }
+.content-singular .hentry .wp-caption { border: 1px solid #ddd; text-align: center; padding: 10px 4px 0px 4px; background: #fff none; }
+.content-singular .hentry .wp-caption a { border: 0 none; }
+.content-singular .hentry .wp-caption img { margin: 0; padding: 0; border: 0 none; }
+.content-singular .hentry .wp-caption p.wp-caption-text { font-size: 10px; line-height: 17px; padding: 7px 5px; margin: 0; }
+
+img.wp-smiley { padding: 0; border: 0 none; }

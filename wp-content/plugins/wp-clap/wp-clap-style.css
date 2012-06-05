@@ -1,0 +1,101 @@
+﻿.wp_clap {
+	clear:both;
+	margin-bottom:10px;
+}
+
+.wp_clap a {
+	text-decoration:none;
+}
+
+.wp_clap a:hover {
+	text-decoration:underline;
+}
+
+.wp_clap_title, #content .wp_clap_title {
+	margin:0;
+	font-weight:bold;
+	font-size:16px;
+}
+
+.wp_clap_do {
+	float:left;
+	text-align:center;
+	margin:5px;
+	font-size:12px;
+	line-height:1.4;
+}
+
+.wp_clap_do a:hover {
+	text-decoration:none;
+}
+
+.wp_clap_img {
+	display:block;
+}
+
+.wp_clap_img, span.wp_clap_avatar img {
+	border:1px solid #DDD;
+	padding:2px;
+	background-color:transparent;
+}
+
+img.wp_clap_img:hover {
+	border-color:#AAA;
+}
+
+.wp_clap_notice {
+	float:left;
+	margin:5px;
+	font-size:12px;
+}
+
+.wp_clap_clappers {
+	clear:both;
+	font-size:12px;
+	line-height:1.2;
+}
+
+.wp_clap_single_clapper {
+	text-align:center;
+	float:left;
+	margin:5px;
+}
+
+.wp_clap_avatar {
+	display:block;
+}
+
+.wp_clap_f {
+	float:right;
+	padding:4px;
+}
+
+.wp_clap_f_container {
+	border:1px solid #ccc;
+	width:48px;
+	height:48px;
+	text-align:center;
+	padding:1px;
+}
+
+.wp_clap_f_count {
+	font-size:16px;
+	line-height:29px;
+	height:29px;
+	margin-bottom:1px;
+}
+
+.wp_clap_f_text {
+	font-size:12px;
+	font-weight:bold;
+	line-height:18px;
+	height:18px;
+}
+
+.wp_clap_f_text span {
+	cursor:pointer;
+}
+
+.wp_clap_clear {
+	clear:both;
+}

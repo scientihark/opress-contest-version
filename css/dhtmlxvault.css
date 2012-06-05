@@ -1,0 +1,56 @@
+.dhxvlt_hidden {
+    z-index: 4;
+    filter: alpha(opacity: 0);
+    text-align: left;
+    opacity: 0;
+    -moz-opacity: 0;
+    cursor: pointer;
+    left: 0px;
+    position: absolute;
+    height: 25px;
+}
+a.link:hover, a.link:visited, a.link:link {
+	color: #C60;
+}
+
+.fileName, .text, a.link:hover, a.link:visited, a.link:link {font-size: 11px;font-family: 'WenQuanYi - Micro Hei webf';}
+.fileName {overflow:hidden;height:14px;width:200px;}
+.btnAddDiv {left:9px;width:70px;overflow:hidden;height:32px;direction:rtl;position:absolute;top:212px;}
+.dhxvlt_panelbg {
+	background-color:#FFF;
+	opacity:0.8;
+}
+.dhxvlt_panelborder {
+	border: 1px solid #fff;
+	border-radius:5px 5px 5px 5px;
+	}
+.dhxvlt_panel2border {
+	border:1px solid #fff;
+border-radius:5px 5px 5px 5px;
+}
+.dhxvlt_row {background: none;}
+.dhxvlt_row table {border-bottom:1px solid #F4E2CE;}
+.dhxvlt_rowsel {background: url(../img/rowsel.gif);}
+.dhxvlt_rowsel table {border-bottom:1px solid #ffffff !important;}
+.dhxvlt_txtremove {display:none;}
+#dhxvlt_icoremove {position:relative;top:7px;width:16px;height:16px;background:url(../img/delete.gif) no-repeat;cursor:pointer;}
+
+.dhxvlt_rbtn {margin-right:7px;}
+.dhxvlt_rbtn3 {width:4px;height:21px;float:right;background:url(../img/btn3.gif) no-repeat;}
+.dhxvlt_rbtn2 {cursor:pointer;height:21px;float:right;background:url(../img/btn2.gif) repeat-x;overflow-y:hidden;font-size:8pt;font-family:Tahoma,Arial,Helvetica,sans-serif;}
+.dhxvlt_rbtn2 nobr {margin-right:4px}
+.dhxvlt_rbtn2 img {margin-top:5px;margin-left:4px;margin-right:4px;}
+.dhxvlt_rbtn1 {width:4px;height:21px;float:right;background:url(../img/btn1.gif) no-repeat;}
+
+.dhxvlt_lbtn {margin-right:7px;}
+.dhxvlt_lbtn3 {width:4px;height:21px;float:left;background:url(../img/btn3.gif) no-repeat;}
+.dhxvlt_lbtn2 {cursor:pointer;height:21px;float:left;background:url(../img/btn2.gif) repeat-x;overflow-y:hidden;font-size:8pt;font-family:Tahoma,Arial,Helvetica,sans-serif;}
+.dhxvlt_lbtn2 nobr {margin-right:4px}
+.dhxvlt_lbtn2 img {margin-top:5px;margin-left:4px;margin-right:4px;}
+.dhxvlt_lbtn1 {width:4px;height:21px;float:left;background:url(../img/btn1.gif) no-repeat;}
+
+.dhxvlt_fo {width:70px}
+
+.btnAddBtn {left:10px;width:94px;overflow:hidden;height:32px;position:absolute;top:212px;}
+
+.dhxvlt_dis {color:#999}

@@ -1,0 +1,118 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Theme meditation\n"
+"Report-Msgid-Bugs-To: http://www.w3theme.com/meditation/\n"
+"POT-Creation-Date: 2010-05-06 09:18+0800\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Joe D. <nonultimate@gmail.com>\n"
+"Language-Team: w3Theme Studio <support@w3theme.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Chinese\n"
+
+msgid "Visit %s's website"
+msgstr "訪問 %s 的網站"
+
+msgid "Quote this comment"
+msgstr "引用該評論"
+
+msgid "The logo image URL"
+msgstr "Logo 圖片地址"
+
+msgid "Site keywords"
+msgstr "網站關鍵詞"
+
+msgid "Site description"
+msgstr "網站簡介"
+
+msgid "Show author"
+msgstr "顯示作者"
+
+msgid "Show copyright"
+msgstr "顯示版權"
+
+msgid "Custom header text"
+msgstr "自定義頭部文本"
+
+msgid "Custom footer text"
+msgstr "自定義尾部文本"
+
+msgid "Footer code"
+msgstr "尾部代碼"
+
+msgid "Layout"
+msgstr "布局"
+
+msgid "3-Columns, Thin, Wide, Thin"
+msgstr "3欄，窄，寬，窄"
+
+msgid "3-Columns, Wide, Thin, Thin"
+msgstr "3欄，寬，窄，窄"
+
+msgid "2-Columns, Thin, Wide"
+msgstr "2欄，窄，寬"
+
+msgid "2-Columns, Wide, Thin"
+msgstr "2欄，寬，窄"
+
+msgid "404 error page"
+msgstr "404 錯誤頁面"
+
+msgid "Show index meta item"
+msgstr "顯示首頁相關項"
+
+msgid "Default feed type"
+msgstr "默認訂閱類型"
+
+msgid "Number of recent posts to show"
+msgstr "顯示最近文章數"
+
+msgid "Number of recent comments to show"
+msgstr "顯示最近評論數量"
+
+msgid "Use secure login"
+msgstr "使用安全登錄"
+
+msgid "Enable SSL"
+msgstr "啓用 SSL"
+
+msgid "Do not check this if you are not sure, or you will be unable to login!"
+msgstr "不要選擇該項，如果你不清楚，否則你將無法登錄！"
+
+msgid "Click this link to check you have SSL properly installed."
+msgstr "點此鏈接檢查你的 SSL 是否正確安裝了。"
+
+msgid "Hello, %s!"
+msgstr "你好，%s！"
+
+msgid "Subscribe"
+msgstr "訂閱"
+
+msgid "Font:"
+msgstr "字體："
+
+msgid "Large"
+msgstr "大"
+
+msgid "Normal"
+msgstr "中"
+
+msgid "Small"
+msgstr "小"
+
+msgid "Zoom in font"
+msgstr "放大字體"
+
+msgid "Normal font size"
+msgstr "正常字體大小"
+
+msgid "Zoom out font"
+msgstr "縮小字體"
+
+msgid "<a href=\"%s\">Log in</a> to leave a comment or comment anonymously."
+msgstr "<a href=\"%s\">登錄</a> 發表評論或匿名評論。"
+
+msgid "Why register? Fast post, no spam, no moderation required. <a href=\"%s\">Register now</a>!"
+msgstr "爲什麽要注册？快速發表，無過濾，無需審核。<a href=\"%s\">馬上注册</a>！"
+

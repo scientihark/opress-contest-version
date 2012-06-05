@@ -1,0 +1,41 @@
+#guide {
+text-align: left;
+}
+#nav li {
+float: right;
+}
+#header-description {
+padding-left: 0;
+padding-right: 600px;
+}
+ul.sidebar li li {
+padding: 0 12px 0 0;
+background: url("../images/list.png") no-repeat right 8px;
+}
+div.storytitle .meta {
+text-align: left;
+}
+.paginate {
+text-align: left;
+}
+.comment-content {
+margin-left: 0;
+margin-right: 140px;
+border-left: 0;
+border-right: 1px solid #D5E3EE;
+}
+.meta-action {
+text-align: left;
+}
+.powered {
+text-align: left;
+}
+.zoom {
+text-align: left;
+}
+.navigation {
+text-align: right;
+}
+.next-post {
+float: left;
+}

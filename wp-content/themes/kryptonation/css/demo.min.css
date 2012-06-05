@@ -1,0 +1,20 @@
+a{color:#aaa;}a:hover{color:#ccc;}
+header h1:hover:before,header h2:hover:before,header h1:hover:after,header h2:hover:after{content:none;}
+h1:hover:before{content:'> ';}
+h1:hover:after{content:' <';}
+h2:before{content:'> ';visibility:hidden;}
+h2:hover:before{visibility:visible;}
+strong{font-weight:bold;}
+em{font-style:italic;}
+#wrapper{width:720px;margin:0 auto;}
+span.new{color:red;text-decoration:none;font-style:normal;border-radius:5px;-webkit-border-radius:5px;-moz-border-radius:5px;}
+.foundabug{display:block;margin:5px 10px;text-decoration:none;}
+header h1{font-size:1.4em;}
+header p{color:#555;margin:0;}
+section{margin-top:20px;}
+table{width:100%;border-collapse:collapse;border:2px solid #ccc;}table tr td,table tr th{text-align:left;padding:1px 5px;border-right:1px solid #ccc;}
+table thead{border-bottom:2px solid #ccc;}table thead tr{background:#aaa;color:white;}
+table tbody tr:nth-child(odd){background:#eeeeee;}
+table tbody tr:nth-child(even){background:#f9f9f9;}
+#demo{clear:left;margin:10px auto;}
+#demo .slider{margin:0 auto;}

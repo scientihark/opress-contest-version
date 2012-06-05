@@ -1,0 +1,108 @@
+/*
+Section: Color
+*/
+
+/* HTML Tag selectors
+-----------------------------------------*/
+body { color: #000; background: transparent url('../images/bg.jpg') left top repeat; }
+blockquote { border-color: #c8c8c8; background: #eee none }
+blockquote blockquote { border-color: #c8c8c8; background: #fefefe none }
+blockquote blockquote blockquote { border-color: #c8c8c8; background: #eee none }
+a:link, a:visited { color: #c33; }
+a:hover, a:active { color: #c33; }
+
+/* Class selectors
+-----------------------------------------*/
+
+/* Container
+-----------------------------------------*/
+
+/* Header
+-----------------------------------------*/
+div#header { background: transparent url('../images/bg-header.jpg') center bottom repeat-x; }
+div#header .box-masthead .title a { background: transparent url('../images/site-name.png') left top no-repeat; }
+div#header .box-socialnet ul li.facebook { background: transparent url('../images/icon-sn-facebook.png') left top no-repeat; }
+div#header .box-socialnet ul li.rss { background: transparent url('../images/icon-sn-rss.png') left top no-repeat; }
+div#header .box-socialnet ul li.twitter { background: transparent url('../images/icon-sn-twitter.png') left top no-repeat; }
+div#header .box-socialnet ul li.mail { background: transparent url('../images/icon-sn-mail.png') left top no-repeat; }
+
+/* Featured
+-----------------------------------------*/
+div#featured { background: transparent url('../images/bg-featured.png') left top repeat; }
+
+/* Body
+-----------------------------------------*/
+div#body { background: transparent url('../images/bg-common.png') center center repeat-y; }
+div#body div#ads-google-text { background: #f5f5f5 none; border-bottom-color: #e3e3e3; }
+div#body div#ads-google-text .pad { border-color: #fff;  }
+div#content .pad { background: transparent none; }
+div#sidebar .pad { background: transparent none; }
+
+/* Post
+-----------------------------------------*/
+.hentry .title h1 { color: #000; }
+.hentry .title h2 { color: #000; }
+.hentry .title a { color: #000; }
+.hentry .title a:hover { color: #c33; }
+.hentry .meta p { color: #ccc; }
+.hentry .meta p a { color: #ccc; }
+.hentry .meta p a:hover { color: #c33; }
+.content-group .hentry { border-color: #e3e3e3; background: transparent url('../images/bg-hentry-1.png') left top no-repeat; }
+.content-group .not-found { background: transparent none; }
+
+
+/* Post Details
+-----------------------------------------*/
+.content-single .hentry .post-box .title { background: transparent none; border-bottom-color: #eaeaea; }
+.content-single .hentry .post-box .title p { color: #666; }
+
+/* Comments
+-----------------------------------------*/
+div.comment { border-bottom-color: #bfbfbf; background: transparent url('../images/bd-comment-vertical.gif') 171px top repeat-y; }
+div.comment .comment-author .comment-avatar img.avatar { border-color: #bfbfbf; }
+div.comment .comment-author .comment-meta .author { color: #666; }
+div.comment .comment-author .comment-meta .time { color: #999; }
+
+/* Comment Form
+-----------------------------------------*/
+div#reply p.input input { color: #000; background: #fff none; border-color: #ddd; }
+div#reply small { color: #b7b7b7; }
+div#reply textarea { color: #000; background: #fff none; border-color: #ddd; }
+div#reply button { background: transparent url('../images/button-comments-submit.png') left top no-repeat; }
+
+/* Sidebar
+-----------------------------------------*/
+div#sidebar a { color: #333; }
+div#sidebar a:hover { color: #c33; }
+div#sidebar .box { background: transparent url('../images/bd-sidebar-box.png') left bottom repeat-x; text-shadow: #fff 1px 1px; }
+div#sidebar .box .title { border-bottom-color: #d2d2d2; }
+div#sidebar .box .title h3 { color: #41403b; text-shadow: 1px 1px #fff; border-top-color: #a1bfcb; }
+div#sidebar .box ul li { 
+	background: transparent url('../images/bullet-list-item-sidebar.png') left 10px no-repeat;
+	border-bottom-color: #d5e4eb;
+}
+div#sidebar .box ul ul {
+	background: transparent url('../images/bd-sidebar-box.png') left top repeat-x; 
+}
+div#sidebar .box-search input { 
+	color: #999;
+	background: transparent url('../images/input-search.png') left top no-repeat; 
+}
+div#sidebar .box-tweet a { color: #c33; }
+div#sidebar .box-tweet .interior {
+	background: transparent url('../images/bg-box-tweet-m.png') left bottom repeat-y;
+}
+div#sidebar .box-tweet .interior .pad {
+	background: transparent url('../images/bg-box-tweet.png') left bottom no-repeat;
+}
+div#sidebar .box-tweet .interior .pad .inner {
+	background: transparent url('../images/bg-box-tweet-t.png') left top no-repeat;
+}
+
+/* Footer
+-----------------------------------------*/
+div#footer { background: transparent url('../images/bg-footer.jpg') left top repeat-x; color: #3a3a3a; }
+div#footer a { color: #3a3a3a; }
+
+
+

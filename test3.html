@@ -1,0 +1,273 @@
+<style>
+@charset "utf-8";
+@font-face {
+ font-family: 'WenQuanYi - Micro Hei webf';
+ font-style: normal;
+ font-weight: normal;
+ src: local('文泉驿微米黑'), url('fonts/wenquanyi_weimi_webfont_by_scientihark.ttf') format('truetype');
+}
+body {
+	background-color:#fff;
+	margin-left: 0px;
+	margin-top: 0px;
+	font-family: "WenQuanYi - Micro Hei webf";
+	cursor: url(img/cursor_w.png) 0 0, auto;
+}
+#login_member_p_bg {
+	background-color:#000;
+	opacity:0.3;
+	border-radius:20px 20px 20px 20px;
+	height:400px;
+	width:300px;
+	position:relative;
+	left:600px;
+	top:30px;
+	z-index:8001;
+}
+#container {
+	height:600px;
+	width:800px;
+}
+#login_member_p_tittle {
+	position:relative;
+	left:600px;
+	top:-350px;
+	font-size:24px;
+	color:#FFF;
+	z-index:8002;
+	text-align:center;
+	width:300px;
+}
+#login_member_p_inside {
+	position:relative;
+	left:600px;
+	top:-320px;
+	font-size:18px;
+	color:#FFF;
+	z-index:8003;
+	text-align:center;
+	width:300px;
+	height:400px;
+}
+#login_member_login_form {
+	text-align:center;
+	background-color:#000;
+	margin-bottom:10px;
+	background:url(img/fnd.jpg) repeat;
+	background-size:contain;
+}
+.input_ok {
+	background-color:#D5FFD2;
+}
+.login_none {
+	-moz-transform:scale(0,0);
+	transform:scale(0,0);
+	height:0px;
+	opacity:0;
+	transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-webkit-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+}
+.login_now {
+	-moz-transform:scale(1,1);
+	transform:scale(1,1);
+	height:auto;
+	opacity:1;
+	transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-webkit-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+}
+[cpregtype="cp_reg_tittle"] {
+	position:relative;
+	top:10px;
+	font-size:18px;
+	color:#fff;
+	text-shadow:2px 2px 2px #000;
+	text-align:center;
+	width:300px;
+	height:40px;
+}
+[cpregtype="cp_reg_input"] {
+	position:relative;
+	top:0px;
+	width:300px;
+	height:40px;
+	font-size:16px;
+	border:none;
+	border-radius:6px 6px 6px 6px;
+	-moz-box-shadow:0 0 10px #000;
+	-webkit-box-shadow: 0 0 10px #000;
+	box-shadow:  0 0 10px #000;
+	color:#000;
+	text-shadow:1px 1px 1px #333;
+	font-family: "WenQuanYi - Micro Hei webf";
+	cursor: url(img/cursor_p.png) 0 0, pointer;
+}
+#login_member_login:hover {
+	background-color:#000;
+	transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-webkit-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+}
+#login_member_login {
+	padding-top:3px;
+	padding-bottom:3px;
+	transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-webkit-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+}
+#login_member_signup:hover {
+	background-color:transparent;
+	transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-webkit-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+}
+#login_member_signup {
+	background-color:#000;
+	padding-top:3px;
+	padding-bottom:3px;
+	transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-webkit-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+}
+a,a:link,a:active,a:hover{
+	text-decoration:none;
+	color:#fff;
+}
+#login_member_p_inside{
+	vertical-align:middle;
+	font-size:30px;
+}
+</style>
+<meta charset="UTF-8">
+<body>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+	<div id="container">
+    	<div id="login_member_p_bg"></div>
+        <div id="login_member_p_tittle"></div>
+        <div id="login_member_p_inside">
+        	<div id="login_member_login" onClick="javascript:view_login();">登录</div>
+            <div id="login_member_login_form" class="login_none">
+            	<table border="0" cellspacing="0" cellpadding="0">
+ 				 <tr>
+    				<td><table border="0" cellspacing="0" cellpadding="0">
+ 						 <tr>
+   							<td><div id="cp_reg_form_uname_tittle" cpregtype="cp_reg_tittle">登录名</div></td>
+ 				 		</tr>
+  						 <tr>
+   							<td><input id="cp_reg_form_uname" cpregtype="cp_reg_input" placeholder="请输入用户名"  value="" class="input_no"></td>
+  				 		</tr>
+						</table>
+					</td>
+  				</tr>
+  				<tr>
+    				<td><table border="0" cellspacing="0" cellpadding="0">
+ 							<tr>
+   								 <td><div id="cp_reg_form_upass_tittle" cpregtype="cp_reg_tittle">密码</div></td>
+ 							</tr>
+  							<tr>
+    							 <td><input id="cp_reg_form_upass" cpregtype="cp_reg_input" placeholder="请输入登陆密码"  value="" class="input_no" type="password"></td>
+  							</tr>
+						</table>
+                    </td>
+				</tr>
+                <tr>
+    				<td><table border="0" cellspacing="0" cellpadding="0">
+ 							<tr>
+   								 <td><div id="cp_reg_form_login_tittle" cpregtype="cp_reg_tittle" onClick="javascript:aj_logion();">ok</div></td>
+ 							</tr>
+						</table></td>
+				</tr>
+				</table>
+            </div>
+        <div id="login_member_signup"><a href="register.html" target="_blank">立即加入，赢取大奖</a></div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+$islogin="NULL";
+$islogin_show=false;
+$.ajax({
+                 type:"POST",
+                 dataType:"json",
+                 url:"api/index.php",
+                 timeout:80000,	   //ajax请求超时时间80秒
+                 data:{checktype:"nowuser"}, //40秒后无论结果服务器都返回数据
+                 success:function(data,textStatus){
+                     //从服务器得到数据，显示数据并继续查询
+					if(data.flag=="ok"){
+						$islogin=data.display_name;
+					}else{
+						$islogin="NULL";
+					}
+					if($islogin!="NULL"){
+						document.getElementById('login_member_p_tittle').innerHTML="欢迎回来 "+$islogin;
+						document.getElementById('login_member_signup').innerHTML="<a href=\"mpanel.html\" target=\"_blank\">进入参赛者面板</a>";
+						document.getElementById('login_member_login').innerHTML="登出";
+					}else{
+						document.getElementById('login_member_p_tittle').innerHTML="立即登陆";
+					}
+	             },
+				 //Ajax请求超时，继续查询
+	             error:function(XMLHttpRequest,textStatus,errorThrown){
+						window.location.reload();
+	             }
+                 });
+function view_login(){
+	if($islogin=="NULL"){
+		if($islogin_show==false){
+			document.getElementById('login_member_login_form').className="login_now";
+			$islogin_show=true;
+		}else{
+			document.getElementById('login_member_login_form').className="login_none";
+			$islogin_show=false;
+			
+		}
+	}else{
+		window.location="http://contest.scie.in/wp-login.php?action=logout";
+	}
+}
+function RndNum(n){
+var rnd="";
+for(var i=0;i<n;i++)
+rnd+=Math.floor(Math.random()*10);
+return rnd;
+}
+function aj_logion(){
+	$ida="jQuery"+RndNum(20)+"_"+RndNum(13);
+	$urla="http://contest.scie.in/wp-login.php?callback="+$ida+"&template=";
+	$logn=document.getElementById('cp_reg_form_uname').value;
+	$logp=document.getElementById('cp_reg_form_upass').value;
+$.ajax({
+                 type:"POST",
+                 dataType:"json",
+                 url:"http://contest.scie.in/wp-login.php",
+                 timeout:80000,	   //ajax请求超时时间80秒
+                 data:{log:$logn,pwd:$logp,rememberme:"forever",testcookie:1}, //40秒后无论结果服务器都返回数据
+                 success:function(data,textStatus){
+                     //从服务器得到数据，显示数据并继续查
+					 
+						var $b=function(){
+						window.location.reload();
+						}
+						setTimeout($b,2000);
+				
+	             },
+				 //Ajax请求超时，继续查询
+	             error:function(XMLHttpRequest,textStatus,errorThrown){
+					 
+					var $b=function(){
+						window.location.reload();
+						}
+						setTimeout($b,2000);
+	             }
+                 
+});
+}
+</script>

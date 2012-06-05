@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="jquery.min.js"></script>
+</head>
+<body>
+<p><input name="url" type="text" id="url" value="url"/></p>
+<p><div id="call-back-statue">Loading...</div></p>
+<a href="#" onclick="javascript:posturl();">post</a>
+<script type="text/javascript">
+function posturl()
+{
+	$url=document.getElementById('url').value;
+	if($url=="")
+	{
+		alert('please fill all the blanks!');
+	}
+	else
+	{
+		postmyurl($url);
+	}
+}
+function postmyurl($url2){
+$.ajax({
+                 type:"POST",
+                 dataType:"html",
+                 url:"openfile_http.php",
+                 timeout:80000,	   //ajax请求超时时间80秒
+                 data:{url:$url2}, //40秒后无论结果服务器都返回数据
+		success:function(data,textStatus){
+                     //从服务器得到数据，显示数据并继续查询
+			document.getElementById("call-back-statue").innerHTML=data;	
+                 },
+				 //Ajax请求超时，继续查询
+	             error:function(XMLHttpRequest,textStatus,errorThrown){
+	                     if(textStatus=="timeout"){
+				document.getElementById("call-back-statue").innerHTML="time out!";
+	                     }
+	             }
+                 
+});
+};
+</script>
+</body>
+
+</html>

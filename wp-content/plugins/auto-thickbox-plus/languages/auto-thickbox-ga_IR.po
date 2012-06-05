@@ -1,0 +1,39 @@
+# Irish (ga_IR) translation for Auto ThickBox Plus
+# Copyright (C) 2009 Mesoconcepts <http://www.mesoconcepts.com>
+# This file is distributed under the same license as the Auto Thickbox package.
+# Sarvita Kuamri <sarvita@outshinesolutions.com>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Auto ThickBox Plus 0.7\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/auto-thickbox-plus\n"
+"POT-Creation-Date: 2009-12-03 11:59+0100\n"
+"PO-Revision-Date: 2012-02-15 03:07+0900\n"
+"Last-Translator: Sarvita Kuamri <sarvita@outshinesolutions.com>\n"
+"Language-Team: Lets Be Famous <ray.s@letsbefamous.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Irish\n"
+"X-Poedit-Country: IRELAND\n"
+
+#: auto-thickbox-info.php:4
+msgid "Next &gt;"
+msgstr "Ar Aghaidh &gt;"
+
+#: auto-thickbox-info.php:5
+msgid "&lt; Prev"
+msgstr "&lt; Roimhe Seo"
+
+#: auto-thickbox-info.php:6
+msgid "Image"
+msgstr "íomhá"
+
+#: auto-thickbox-info.php:7
+msgid "of"
+msgstr "de"
+
+#: auto-thickbox-info.php:8
+msgid "Close"
+msgstr "Dún"
+

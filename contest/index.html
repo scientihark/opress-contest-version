@@ -1,0 +1,264 @@
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>"长虹杯"电子信息竞赛</title>
+        <meta name="title" content="contest" />
+        <meta name="keywords" content="contest" />
+        <meta name="description" content="contest" />
+        <link href="css/mystyle.css" rel="stylesheet" type="text/css">
+        <script src="js/jquery.js" type="text/javascript"></script>
+        <script src="js/home_v6.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            if(top != window){
+                top.location.href = "http://contest.scie.in";
+            }
+            
+            window["PATHS_PASSPORT"] = 'http://contest.scie.in/login/';
+        </script>
+    </head>
+
+    <body>
+        <div class="screen-wrap" id="js_scroll_warp">
+            <div class="screen-container screen-01">
+                <div class="header">
+                    <h1 class="logo"><a href="http://contest.scie.in">"长虹杯"电子信息竞赛</a></h1>
+                    <ul class="top-nav">
+                        <li><a href="javascript:;" class="focus">首页</a></li>
+                        <li><a href="http://contest.scie.in/%E5%85%B3%E4%BA%8E%E5%A4%A7%E8%B5%9B/">关于大赛</a></li>
+                        <li><a href="http://contest.scie.in/%E5%8F%82%E8%B5%9B%E7%94%B3%E6%8A%A5%E4%B9%A6%E6%8F%90%E4%BA%A4/">申报书提交</a></li>
+                        <li><a href="http://contest.scie.in/%E5%A4%A7%E8%B5%9B%E6%96%B0%E9%97%BB-news/">大赛新闻</a></li>
+                        <li><a href="http://contest.scie.in/%E8%B5%9B%E8%80%85%E9%A2%91%E9%81%93/">参赛者频道</a></li>
+                        <li><a href="timeline/">大赛时间轴</a></li>
+                    </ul>
+                    <div class="honor-text"><a href="http://contest.scie.in/register" class="button btn-reg" style="display:compact">立即参赛，赢得XXX大奖</a></div>
+                </div>
+                <div class="more-link">
+			<div class="con"><b onclick="H.Scroll.Move(1); return false;">点我看看</b><a href="javascript:;" title="美丽的长虹" id="js_logo_background">长虹</a>
+                        <div class="festival-logo" id="js_festival_logo"></div>
+                        <script type="text/javascript">
+                                H.Common.FestivalLogo({
+                                        logo: [
+                                                {
+                                                        festival: "april_fool_s_day",
+                                                        startDate: "2012/03/31 14:00",
+                                                        endDate: "2012/04/02",
+                                                        transparent: true
+                                                },
+                                                {
+                                                        festival: "ching_ming_festival",
+                                                        startDate: "2012/04/02 14:00",
+                                                        endDate: "2012/04/05 09:00",
+                                                        transparent: false
+                                                }
+                                        ],
+                                        box: $("#js_festival_logo"),
+                                        background: $("#js_logo_background")
+                                });
+                        </script>
+                    </div> 
+                </div>
+                <div class="screen-box">
+                    <div class="login-box">
+                        <div class="top-reg"><center class="changhang_consest_login_text">"长虹杯"</center><center class="changhang_consest_login_text">--电子信息竞赛--</center><a href="http://contest.scie.in/register" class="button btn-reg">立即参赛，赢得XXX大奖</a></div>
+                        <form vail="1" id="js_login_form" action="http://contest.scie.in/%E5%85%B3%E4%BA%8E%E5%A4%A7%E8%B5%9B/" method="post" rel="login">
+                            <input type="hidden" name="back" value="http://contest.scie.in/" />
+                            <input type="hidden" name="goto" value="http://contest.scie.in/%E5%85%B3%E4%BA%8E%E5%A4%A7%E8%B5%9B/" />
+                            <br><br><br><br><dl class="login-form">
+                                <a href="http://contest.scie.in/%E5%85%B3%E4%BA%8E%E5%A4%A7%E8%B5%9B/" class="button btn-login">立即登录</a> </dl>
+                        </form>
+                        <dl class="access-box">
+                           
+                            
+                        </dl>
+                    </div>
+                    <div class="client-link">
+                        <ul>
+                            <li><a href="http://pc.115.com/" target="_blank" class="button btn-windows">创新创业中心</a></li>
+                            <li><a href="http://pc.115.com/mobile/iphone/index.html" target="_blank" class="button btn-iphone">电子科技大学</a></li>
+                            <li><a href="http://pc.115.com/mobile/android/index.html" target="_blank" class="button btn-android">长虹</a></li>
+                        </ul>
+                    </div>
+                    <div class="video-box"><a href="http://contest.scie.in/%E5%85%B3%E4%BA%8E%E5%A4%A7%E8%B5%9B/" class="btn-video">即刻开始</a></div>
+                </div>
+            </div>
+            <script type="text/javascript">
+                    (function(){
+                            H.Login.Init($("#js_login_form"));
+                            var error = '';
+                            var account = $("#account"), pwd = $("#passwd");
+			
+                            if(error){
+                                    var errShowBox;
+                                    var errCode = '';
+                                    if(errCode == '300'){
+                                            errShowBox = account;
+                                    }
+                                    else{
+                                            H.Login.Blur(account);
+                                            errShowBox = pwd;
+                                    }
+                                    H.Login.ShowMsg(errShowBox, error);
+                                    window.setTimeout(function(){
+                                            H.Login.HideMsg(errShowBox);
+                                    },2000);
+                                    window.setTimeout(function(){
+                                            errShowBox.focus();
+                                    }, 50);
+                            }
+                            else{
+                                    window.setTimeout(function(){
+                                            if(account.val() == ""){
+                                                    account.focus();
+                                            }
+                                            else{
+                                                    pwd.focus();
+                                            }
+                                    }, 100);
+                            }
+                            window.setTimeout(function(){
+                                    if(account.val() == ""){
+                                            H.Login.Blur(account);
+                                    }
+                                    if(pwd.val() == ""){
+                                            H.Login.Blur(pwd);
+                                    }
+                            }, 100);
+                    })();
+            </script>
+            <div class="screen-container screen-02">
+                <div class="screen-box">
+                    <div class="feature-text ft-storage">
+                        <h3>我拥有！ 海量存储空间！</h3>
+                        <p>注册即可拥有 <strong>15G</strong> 免费网盘空间。</p>
+                        <p>升级 <strong>VIP</strong> 会员，最高可扩容至 <strong>5T</strong> 超大网盘空间。</p>
+                        <p><a href="http://vip.115.com/?p=home_index">点击这里</a>，查看更详尽VIP会员信息。</p>
+                    </div>
+                    <div class="animate-box animate-storage"></div>
+                    <div class="wallpaper-box wallpaper-storage"></div>
+                </div>
+            </div>
+            <div class="screen-container screen-03">
+                <div class="screen-box">
+                    <div class="feature-text ft-share">
+                        <h3>我可以！ 快捷分享文件！</h3>
+                        <p>115网盘分享文件完全 <strong>没有</strong> 时间 <strong>限制</strong></p>
+                        <p>轻点鼠标即可将文件分享给好友、分享给大众、分享到邮箱、分享到微博。</p>
+                    </div>
+                    <div class="animate-box animate-share">
+                        <ul class="feature-popup" id="js_weibox_links">
+                            <li class="fp-sina">分享到新浪微博</li>
+                            <li class="fp-tencent" style="display: none;">分享到腾讯微博</li>
+                            <li class="fp-email" style="display: none;">分享到邮箱</li>
+                            <li class="fp-mobile" style="display: none;">分享到手机</li>
+                            <li class="fp-circle" style="display: none;">分享到圈子</li>
+                        </ul>
+                    </div>
+                    <div class="wallpaper-box wallpaper-share"></div>
+                    <div class="animate-crab" id="js_crab_box"><b id="js_crab_hub">螃蟹</b></div>
+                    <script type="text/javascript">
+                            H.Common.Crab({
+                                    crabBox: $("#js_crab_box"),
+                                    crabHub: $("#js_crab_hub"),
+                                    sideLeft: -185,
+                                    sideRight: 265,
+                                    distance: 200,
+                                    duration: 1500	
+                            });
+                    </script> 
+                </div>
+            </div>
+            <div class="screen-container screen-04">
+                <div class="screen-box">
+                    <div class="feature-text ft-life">
+                        <h3>我享受！ 云端前卫生活！</h3>
+                        <p>115网盘提供完整的 <strong>多客户端</strong> 支持，无论您是在家、在学校、在办公室、在机场、还是在户外，您都可以轻松便捷地使用115网盘。</p>
+                        <p>&nbsp;</p>
+                        <p>这就是属于你的115，它会使你的工作更加便捷、生活更加多彩。</p>
+                        <p><a href="https://passport.115.com/?ct=register"><strong>立刻注册</strong></a>，畅享云端生活！ </p>
+                    </div>
+                    <div class="animate-box animate-life">
+                        <ul class="feature-popup" id="js_feature_links">
+                            <li class="fp-work">在公司管理文件</li>
+                            <li class="fp-out" style="display: none;">在户外观看图片</li>
+                            <li class="fp-home" style="display: none;">在家看文档</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="con">
+                        <div class="copy-right">© 2012 115.COM 粤ICP备11076613号
+                            <br/>增值电信业务经营许可证粤B2-20110560
+                            <br/><a href="http://www.gd.gov.cn" target="_blank" rel="nofollow">广东</a>·<a href="http://www.dg.gov.cn" target="_blank" rel="nofollow">东莞</a>·<a href="http://www.ssl.gov.cn" target="_blank" rel="nofollow">松山湖</a>
+                        </div>
+                        <dl>
+                            <dt>contest</dt>
+                            <dd><a href="http://contest.scie.in">首页</a></dd>
+                            <dd><a href="http://contest.scie.in">新闻</a></dd>
+                            <dd><a href="http://contest.scie.in">参赛者频道<i class="ico-flag if-hot"></i></a></dd>
+                        </dl>
+                        <dl>
+                            <dt>关于长虹</dt>
+                            <dd><a href="http://www.115.com/about_team.html">团队</a></dd>
+                            <dd><a href="http://www.115.com/join_jobs.html">加入我们</a></dd>
+                            <dd><a href="http://www.115.com/contact.html">联系我们</a></dd>
+                        </dl>
+                        <dl>
+                            <dt>关于电子科技大学 和 创新创业中心</dt>
+                            <dd><a href="http://www.115.com/agreement.html">服务协议</a></dd>
+                            <dd><a href="http://www.115.com/service.html">帮助中心</a></dd>
+                            <dd><a href="http://feedback.115.com/?ct--feedback--ac--ask--app--115">我要反馈</a></dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-ctrl">
+            <ul>
+                <li class="focus"><i>1</i></li>
+                <li><i>2</i></li>
+                <li><i>3</i></li>
+                <li><i>4</i></li>
+            </ul>
+        </div>
+        <div class="scroll-link" id="js_scroll_link" style=" display: none;">
+            <ul>
+                <li class="link-login" onclick="window.location.href='http://contest.scie.in/';">登录</li>
+                <li class="link-register" onclick="window.location.href='http://contest.scie.in/register';">注册</li>
+            </ul>
+        </div>
+        <script type="text/javascript">
+        (function($){
+                $("#js_scroll_warp").scroll(function(){
+                        var top = $(this).scrollTop();
+                        if(top < 40) {
+                                top = 40 - top;
+                        }
+                        else {
+                                top = 0;	
+                        }
+                        $("#js_vip_upgrade").css("top", top + "px");
+                });
+        })(jQuery);
+        </script>
+        <script type="text/javascript">
+                (function(){
+                        H.Common.Share($("#js_weibox_links li"));
+                        H.Common.Share($("#js_feature_links li"));
+		
+                        var contains = $(".screen-container");
+                        var tabs = $(".scroll-ctrl li");
+                        var list = [];
+                        contains.each(function(i){
+                                list.push({Tab: $(tabs[i]), Content: $(this) });
+                        });
+                        H.Scroll.Init($("#js_scroll_warp"), list);
+                })();
+        </script> 
+        <!--[if IE 6]>
+        <script src="static/js/transparent_png.js?v=1" type="text/javascript"></script>
+        <![endif]-->
+
+    </body>
+</html>

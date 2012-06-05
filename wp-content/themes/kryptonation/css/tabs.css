@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Caution! Ensure accessibility in print and other media types... */
+@media projection, screen { /* Use class for showing/hiding tab content, so that visibility can be better controlled in different media types... */
+    .ui-tabs-hide {
+        display: none;
+    }
+}
+
+/* Hide useless elements in print layouts... */
+@media print {
+    .ui-tabs-nav {
+        display: none;
+    }
+}
+
+div#sidebar .box-tabs .title { display: none; }
+div#sidebar .box-tabs .interior { padding: 0; background: #fff none; border: 1px solid #e3e3e3; overflow: hidden; width: 298px; }
+
+div#sidebar-tabs h4 { display: none; }
+div#sidebar-tabs ul.header { display: block; margin: 0; padding: 0; height: 34px; overflow: hidden; width: 302px; }
+div#sidebar-tabs ul.header li { 
+	display: block; height: 33px; text-align: center; margin: 0; padding: 0;
+	width: 99px; border-right: 1px solid #e3e3e3; float: left; overflow: hidden;
+	background: transparent none; border-bottom: 1px solid #e3e3e3;
+}
+div#sidebar-tabs ul.header li a:link, div#sidebar-tabs ul.header li a:visited { 
+	font: bold 12px/33px Arvo, serif; text-transform: uppercase; background: #f1f1f1;
+	color: #41403b; text-decoration: none; display: block; border-top: 1px solid #fff; border-left: 1px solid #fff;
+}
+div#sidebar-tabs ul.header li a:hover { color: #999; }
+div#sidebar-tabs ul.header li.ui-tabs-selected { border-bottom: 1px solid #fff; } 
+div#sidebar-tabs ul.header li.ui-tabs-selected a { color: #000; background: #fff none; }
+
+.ui-tabs-nav a:hover, .ui-tabs-nav a:focus, .ui-tabs-nav a:active,
+.ui-tabs-nav .ui-tabs-unselect a:hover, .ui-tabs-nav .ui-tabs-unselect a:focus, .ui-tabs-nav .ui-tabs-unselect a:active { /* @ Opera, we need to be explicit again here now... */
+    cursor: pointer;
+}
+
+div#sidebar .box-tabs .ui-tabs-panel { padding: 10px; }
+div#sidebar .box-tabs .ui-tabs-panel p.notice { padding: 0; margin: 0; text-align: center; }
+div#sidebar .box-tabs .ui-tabs-panel ul li { 
+	color: #000; padding-bottom: 5px; background: transparent url('../images/bd-sidebar-box.png') left bottom repeat-x; 
+	border-bottom: 0 none;
+}
+div#sidebar .box-tabs .ui-tabs-panel ul li a { }
+div#sidebar .box-tabs .ui-tabs-panel ul li a:hover { }

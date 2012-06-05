@@ -1,0 +1,357 @@
+<head>
+<meta charset="UTF-8">
+<link charset="UTF-8" href="css/upanel.css" type="text/css" rel="stylesheet">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<title>参赛者面板_长虹杯--电子设计大赛--2012软件设计竞赛--电子科技大学信息与软件工程学院--Powered by countpress</title>
+<script type="text/javascript" src="js/upanel.js"></script>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.qrcode.js"></script>
+<script type="text/javascript" src="js/qrcode.js"></script>
+<script language="JavaScript" type="text/javascript" src="js/dhtmlxvault.js"></script>
+<link rel="stylesheet" type="text/css" href="css/dhtmlxvault.css" />
+</head>
+<body>
+<div id="cp_reg_form_notice" cpregtype="cp_reg_notice" class="reg_notice_none"><div id="cp_reg_form_notice_inside" cpregtype="cp_reg_notice_inside"></div></div>
+<div id="cp_reg_form_notice_shadow" class="reg_notice_shadow_none"></div>
+<div id="up_left_panel">
+	<div id="upanel-logo" uptype="up_logo">参赛者面板</div>
+    <div><img id="upanel-uinfo_avata" src="img/avatar_default.gif" uptype="up_ava"></div>
+    <div id="upanel-uinfo_name">
+    	<table width="200" border="0" cellspacing="10" cellpadding="0">
+ 		 <tr>
+  		  <td id="up_i_uname">UNAME</td>
+ 		 </tr>
+ 	 	<tr>
+   	 	<td id="up_i_gname">UGNAME</td>
+  		</tr>
+    	</table>
+	</div>
+    <div id="upanel-u-btn_now" uptype="up_left_btn" class="up_lbtn_n_home"></div>
+    <div id="upanel-u-btn_s">
+    	<div id="upanel-u-btn_home" uptype="up_left_btn" class="up_lbtn_now">面板首页</div>
+    	<div id="upanel-u-btn_info" uptype="up_left_btn" class="up_lbtn_none">我的信息</div>
+    	<div id="upanel-u-btn_group" uptype="up_left_btn" class="up_lbtn_none">我的团队</div>
+    	<div id="upanel-u-btn_project" uptype="up_left_btn" class="up_lbtn_none">我的项目</div>
+    	<div id="upanel-u-btn_center" uptype="up_left_btn" class="up_lbtn_none">大赛中心</div>
+    	<div id="upanel-u-btn_back" uptype="up_left_btn" class="up_lbtn_none">返回首页</div>
+    </div>
+</div>
+<div id="up_right_content" class="up_r_home">
+	<div id="up_right_home">
+		<div uptype="up_right_content_box">
+        <table border="0" cellspacing="10" cellpadding="0">
+  <tr>
+    <td><table border="0" cellspacing="10" cellpadding="0">
+  <tr>
+    <td></td>
+  </tr>
+  <tr>
+    <td><div id="up_home-news" class="up_box_w">
+ <div class="up_tittle"><table border="0" cellspacing="10" cellpadding="0">
+  <tr>
+    <td><img src="img/Turbo icon Blue - 64.png" /></td>
+    <td>大赛进度</td>
+  </tr>
+</table></div>
+    <div id="up_myprogress">
+   <div id="pg_up_box" class="pg_box">
+    	<div id="pg_box_1" class="pg_box_none" pgtype="timg"><img src="img/pg_step_1.png" /></div>
+        <div id="pg_box_3" class="pg_box_none" pgtype="timg"><img src="img/pg_step_3.png" /></div>
+    </div>
+		<div id="progress-bar-container"><img src="img/progress-bar-background.png" /></div>
+				<div id="progress-bar-gradient-overlay"><img src="img/progress-bar-gradient-overlay.png" /></div>
+				<div id="progress-bar-gradient-before"><img src="img/progress-bar-gradient-before.png" /></div>
+				<div id="progress-bar-gradient"><img id="progress-bar-gradient_img" src="img/progress-bar-gradient.png" class="progress_0"/></div>
+				<div id="progress-bar-gradient-afters" class="progress_a_0">
+					<div id="progress-bar-gradient-after"><img src="img/progress-bar-gradient-after.png"/></div>
+					<div id="progress-bar-gradient-after-glow"><img src="img/progress-bar-gradient-after-glow.png"/></div>
+				</div>
+		</div>
+        <div id="pg_down_box" class="pg_box">
+        	<div id="pg_box_2" class="pg_box_none" pgtype="timg"><img src="img/pg_step_2.png" /></div>
+        	<div id="pg_box_4" class="pg_box_none" pgtype="timg"><img src="img/pg_step_4.png" /></div>
+   		</div>
+        </div>
+			</td>
+  </tr>
+  <tr>
+    <td><div id="up_home-shortcut" class="up_box_w">
+				快捷
+			</div></td>
+  </tr>
+</table>
+</td>
+    <td><div id="up_home-info" class="up_box_w">
+				信息，包括大赛进度，有无信息，团队任务，队长留言，我的todo等等
+			</div></td>
+  </tr>
+</table>
+          
+		</div>
+       <div uptype="up_right_content_box">
+        <table border="0" cellspacing="10" cellpadding="0">
+  <tr>
+    <td><table border="0" cellspacing="10" cellpadding="0">
+  <tr>
+    <td><div id="up_info-basic" class="up_box_w">
+    <div class="up_tittle"><table border="0" cellspacing="10" cellpadding="0">
+  <tr>
+    <td><img src="img/Turbo icon Blue - 64.png" /></td>
+    <td>参赛信息</td>
+  </tr>
+</table></div><div class="up_content">
+				<table width="200" border="0" cellspacing="10" cellpadding="0">
+  <tr>
+    <td><div id="upanel-uinfo_QR" uptype="up_ava"><div id="qrcode"></div></div></td>
+    <td><table width="200" border="0" cellspacing="10" cellpadding="0">
+  <tr>
+    <td><div id="up_i_f_UNAME" class="t_white2"></div></td>
+  </tr>
+  <tr>
+    <td><div id="up_i_f_SID" class="t_white2"></div></td>
+  </tr>
+  <tr>
+    <td><div id="up_i_f_CID" class="t_white3"></div></td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+			</div></div></td>
+  </tr>
+  <tr>
+    <td><div id="up_info-in" class="up_box_w">
+    <div class="up_tittle">
+    <table border="0" cellspacing="10" cellpadding="0">
+  		<tr>
+    		<td><img src="img/Turbo icon Blue - 64.png" /></td>
+    		<td>基本信息</td>
+ 		 </tr>
+	</table>
+    </div>
+    <div class="up_content">
+	<table width="300" border="0" cellspacing="10" cellpadding="0">
+  <tr>
+    <td class="t_white">登录名</td>
+    <td><div id="up_i_login" class="t_white"></div></td>
+  </tr>
+  <tr>
+    <td class="t_white">所在学院</td>
+    <td><div id="up_i_xy" class="t_white"></div></td>
+  </tr>
+  <tr>
+    <td class="t_white">学号</td>
+    <td><div id="up_i_sid" class="t_white"></div></td>
+  </tr>
+  <tr>
+    <td class="t_white">Email</td>
+    <td><div id="up_i_email" class="t_white"></div></td>
+  </tr>
+  <tr>
+    <td class="t_white">手机</td>
+    <td><div id="up_i_phone" class="t_white"></div></td>
+  </tr>
+</table>
+	</div></div></td>
+  </tr>
+</table>
+
+</td>
+    <td><div id="up_info-c" class="up_box_w">
+    <div class="up_tittle"><table border="0" cellspacing="10" cellpadding="0">
+  <tr>
+    <td><img src="img/Turbo icon Blue - 64.png" /></td>
+    <td>其他信息</td>
+  </tr>
+</table></div><div class="up_content">
+				<table width="300" border="0" cellspacing="10" cellpadding="0">
+  <tr>
+    <td class="t_white">所在团队ID</td>
+    <td><div id="up_i_f_gid" class="t_white"></div></td>
+  </tr>
+  <tr>
+    <td class="t_white">所在团队</td>
+    <td><div id="up_i_f_gname" class="t_white"></div></td>
+  </tr>
+  <tr>
+    <td class="t_white">队长</td>
+    <td><div id="up_i_f_captain" class="t_white"></div></td>
+  </tr>
+  <tr>
+    <td class="t_white">我的头像</td>
+    <td><img id="up-i_f_avata" src="img/avatar_default.gif" uptype="up_ava"></td>
+    <td class="t_white" id="up_i_f_avata_change"><a href="#">修改头像</a></td>
+  </tr>
+</table>
+			</div></div></td>
+  </tr>
+</table>
+          
+		</div>
+        <div uptype="up_right_content_box">
+        <table border="0" cellspacing="10" cellpadding="0">
+  <tr>
+    <td><table border="0" cellspacing="10" cellpadding="0">
+  <tr>
+    <td><div id="up_group-basic" class="up_box_w">
+				团队任务
+			</div></td>
+  </tr>
+  <tr>
+    <td><div id="up_group-in" class="up_box_w">
+    <div class="up_tittle"><table border="0" cellspacing="10" cellpadding="0">
+  <tr>
+    <td><img src="img/Turbo icon Blue - 64.png" /></td>
+    <td>团队公告</td>
+  </tr>
+</table></div><div class="up_content">
+				<table width="200" border="0" cellspacing="10" cellpadding="0">
+  <tr>
+    <td><div id="up_group_notice_box" class="t_white"></div></td>
+  </tr>
+  <tr>
+    <td><table width="200" border="0" cellspacing="10" cellpadding="0" id="ddd">
+  <tr>
+  	<td ><div id="gn_btn_pre_m" uptype="t_white" class="gn_btn_dis">最新</div></td>
+    <td ><div id="gn_btn_pre" uptype="t_white" class="gn_btn_dis">上一条</div></td>
+    <td ><div id="gn_btn_next" uptype="t_white" class="gn_btn_en">下一条</div></td>
+    <td ><div id="gn_btn_next_m" uptype="t_white" class="gn_btn_en">最旧</div></td>
+    <td ><div id="gn_btn_add" uptype="t_white" class="gn_btn_none">添加</div></td>
+    <td ><div id="gn_btn_edit" uptype="t_white" class="gn_btn_none">编辑</div></td>
+    <td ><div id="gn_btn_del" uptype="t_white" class="gn_btn_none">删除</div></td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+			</div></div></td>
+  </tr>
+</table>
+</td>
+    <td><div id="up_group-c" class="up_box_w">
+    <div class="up_tittle"><table border="0" cellspacing="10" cellpadding="0">
+  <tr>
+    <td><img src="img/Turbo icon Blue - 64.png" /></td>
+    <td>我的TODO</td>
+  </tr>
+</table></div><div class="up_content">
+				<table width="200" border="0" cellspacing="10" cellpadding="0">
+  <tr>
+    <td><div id="up_my_todo_box" class="t_white"></div></td>
+  </tr>
+  <tr>
+    <td><table width="200" border="0" cellspacing="0" cellpadding="0" id="ddd">
+  <tr>
+  	<td ><div id="todo_btn_pre_m" uptype="t_white2" class="gn_btn_dis">最新</div></td>
+    <td ><div id="todo_btn_pre" uptype="t_white2" class="gn_btn_dis">上一条</div></td>
+    <td ><div id="todo_btn_next" uptype="t_white2" class="gn_btn_en">下一条</div></td>
+    <td ><div id="todo_btn_next_m" uptype="t_white2" class="gn_btn_en">最旧</div></td>
+    <td ><div id="todo_btn_add" uptype="t_white2" class="gn_btn_en">添加</div></td>
+    <td ><div id="todo_btn_edit" uptype="t_white2" class="gn_btn_en">编辑</div></td>
+    <td ><div id="todo_btn_del" uptype="t_white2" class="gn_btn_en">删除</div></td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+			</div></div></td>
+  </tr>
+</table>
+          
+		</div>
+        <div uptype="up_right_content_box">
+        <table border="0" cellspacing="10" cellpadding="0">
+  <tr>
+    <td><table border="0" cellspacing="10" cellpadding="0">
+  <tr>
+    <td><div id="up_project-basic" class="up_box_w">
+				项目状态
+			</div></td>
+  </tr>
+  <tr>
+    <td><div id="up_project-in" class="up_box_w">
+				快捷栏
+			</div></td>
+  </tr>
+</table>
+</td>
+    <td><div id="up_project-c" class="up_box_w">
+				 <div class="up_tittle"><table border="0" cellspacing="10" cellpadding="0">
+  <tr>
+    <td><img src="img/Turbo icon Blue - 64.png" /></td>
+    <td>项目信息</td>
+  </tr>
+</table></div><div class="up_content">
+<table width="300" border="0" cellspacing="10" cellpadding="0">
+  <tr>
+    <td class="t_white">项目名</td>
+    <td><div id="up_p_name" class="t_white"></div></td>
+  </tr>
+  <tr>
+    <td class="t_white">项目LOGO</td>
+    <td><div id="up_p_logo" class="t_white"><img id="up-p_avata" src="img/avatar_default.gif" uptype="up_ava" class="plogo"><div id="p_logo_manage"></div></div></td>
+  </tr>
+  <tr>
+    <td class="t_white">简介</td>
+    <td><div id="up_p_des" class="t_white"></div></td>
+  </tr>
+  <tr>
+    <td class="t_white">设计文档</td>
+    <td><div id="up_p_wd" class="t_white"></div></td>
+  </tr>
+  <tr>
+    <td class="t_white">宣传图片</td>
+    <td><div id="up_p_pics" class="t_white"></div></td>
+  </tr>
+   <tr>
+    <td class="t_white">宣传视频</td>
+    <td><div id="up_p_v" class="t_white"></div></td>
+  </tr>
+</table>
+			</div></div></td>
+  </tr>
+</table>
+          
+		</div>
+	</div>
+    <div uptype="up_right_content_box">
+        <table border="0" cellspacing="10" cellpadding="0">
+  <tr>
+    <td><table border="0" cellspacing="10" cellpadding="0">
+  <tr>
+    <td><div id="up_center-basic" class="up_box_w">
+				大赛公告概览
+			</div></td>
+  </tr>
+  <tr>
+    <td><div id="up_center-in" class="up_box_w">
+				大赛进度
+			</div></td>
+  </tr>
+</table>
+</td>
+    <td><div id="up_center-c" class="up_box_w">
+    <div class="up_tittle"><table border="0" cellspacing="10" cellpadding="0">
+  <tr>
+    <td><img src="img/sina64.png" /></td>
+    <td>大赛微博</td>
+  </tr>
+</table></div><div class="up_content">
+				<table width="200" border="0" cellspacing="10" cellpadding="0">
+  <tr>
+    <td><div id="up_weibo_box" class="t_white"></div></td>
+  </tr>
+  <tr>
+    <td></td>
+  </tr>
+</table>
+			</div></div></td>
+  </tr>
+</table>
+          
+		</div>
+	</div>
+</div>
+</body>
+<script type="text/javascript" src="js/upanel2.js"></script>
+</html>

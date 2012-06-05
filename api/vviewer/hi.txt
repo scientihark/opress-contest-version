@@ -1,0 +1,9 @@
+﻿application/ogg ogx
+audio/ogg oga ogg spx
+video/ogg ogv
+
+video/webm webm
+audio/webm weba
+
+video/mp4 mp4
+audio/mpeg m4a

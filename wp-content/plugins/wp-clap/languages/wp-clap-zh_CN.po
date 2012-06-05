@@ -1,0 +1,382 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP-Clap\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-09-12 13:23+0700\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Ariagle <lariagle@gmail.com>\n"
+"Language-Team: Galden <lariagle@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ../.\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: China\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: options.php:51
+#: tags/1.0/options.php:30
+#: trunk/options.php:50
+msgid "Settings saved."
+msgstr "设定已保存。"
+
+#: options.php:60
+#: wp-clap.php:620
+#: tags/1.0/options.php:39
+#: tags/1.0/wp-clap.php:367
+#: trunk/options.php:59
+#: trunk/wp-clap.php:596
+msgid "WP Clap Options"
+msgstr "WP Clap 选项"
+
+#: options.php:66
+#: tags/1.0/options.php:45
+#: trunk/options.php:65
+msgid "Clapper"
+msgstr "拍手者"
+
+#: options.php:71
+#: tags/1.0/options.php:50
+#: trunk/options.php:70
+msgid "Show Name"
+msgstr "显示昵称"
+
+#: options.php:77
+#: tags/1.0/options.php:56
+#: trunk/options.php:76
+msgid "Default Name"
+msgstr "默认昵称"
+
+#: options.php:83
+#: tags/1.0/options.php:62
+#: trunk/options.php:82
+msgid "Show Avatar"
+msgstr "显示头像"
+
+#: options.php:89
+#: tags/1.0/options.php:68
+#: trunk/options.php:88
+msgid "Default Avatar(URL)"
+msgstr "默认头像(网址)"
+
+#: options.php:95
+#: tags/1.0/options.php:74
+#: trunk/options.php:94
+msgid "Avatar Size"
+msgstr "头像尺寸"
+
+#: options.php:97
+#: tags/1.0/options.php:76
+#: trunk/options.php:96
+msgid "(8 to 96)"
+msgstr "(8 到 96)"
+
+#: options.php:101
+#: tags/1.0/options.php:80
+#: trunk/options.php:100
+msgid "Frequency"
+msgstr "拍手次数"
+
+#: options.php:104
+#: tags/1.0/options.php:83
+#: trunk/options.php:103
+msgid "Show Frequency"
+msgstr "显示次数"
+
+#: options.php:105
+#: tags/1.0/options.php:84
+#: trunk/options.php:104
+msgid "Before Frequency"
+msgstr "次数前"
+
+#: options.php:106
+#: tags/1.0/options.php:85
+#: trunk/options.php:105
+msgid "After Frequency"
+msgstr "次数后"
+
+#: options.php:111
+#: tags/1.0/options.php:90
+#: trunk/options.php:110
+msgid "Clap Area"
+msgstr "拍手区域"
+
+#: options.php:116
+#: options.php:119
+#: tags/1.0/options.php:95
+#: tags/1.0/options.php:98
+#: trunk/options.php:115
+#: trunk/options.php:118
+msgid "Title"
+msgstr "标题"
+
+#: options.php:120
+#: tags/1.0/options.php:99
+#: trunk/options.php:119
+msgid "Container"
+msgstr "容器"
+
+#: options.php:125
+#: tags/1.0/options.php:104
+#: trunk/options.php:124
+msgid "Clap Text"
+msgstr "拍手文字"
+
+#: options.php:131
+#: tags/1.0/options.php:110
+#: trunk/options.php:130
+msgid "Clapping Text"
+msgstr "正在拍"
+
+#: options.php:137
+#: tags/1.0/options.php:116
+#: trunk/options.php:136
+msgid "Clapped Text"
+msgstr "已拍手"
+
+#: options.php:143
+#: tags/1.0/options.php:122
+#: trunk/options.php:142
+msgid "Clap Image(URL)"
+msgstr "拍手图像(网址)"
+
+#: options.php:147
+#: tags/1.0/options.php:126
+#: trunk/options.php:146
+msgid "Use a image with the clap link."
+msgstr "在拍手链接中使用图像。"
+
+#: options.php:152
+#: tags/1.0/options.php:131
+#: trunk/options.php:151
+msgid "Notice"
+msgstr "说明文本"
+
+#: options.php:156
+#: tags/1.0/options.php:135
+#: trunk/options.php:155
+msgid "You can use those tags to show the clap frequency:<br/> <strong>%clap_f%</strong> total calps<br/> <strong>%clap_f_s%</strong> clappers<br/>  <strong>%clap_f_ave%</strong> average claps."
+msgstr "你可以使用这些标签来显示拍手次数:<br/> <strong>%clap_f%</strong> 总次数<br/> <strong>%clap_f_s%</strong> 总人次<br/>  <strong>%clap_f_ave%</strong> 平均次数."
+
+#: options.php:161
+#: tags/1.0/options.php:140
+#: trunk/options.php:160
+msgid "Miscellaneous"
+msgstr "杂项"
+
+#: options.php:165
+#: tags/1.0/options.php:144
+#: trunk/options.php:164
+msgid "Style"
+msgstr "样式"
+
+#: options.php:166
+#: tags/1.0/options.php:145
+#: trunk/options.php:165
+msgid "Use my own style instead of the default style.(Remove the default wp-clap-style.css)"
+msgstr "使用我自己的样式。（移除默认的wp-clap-style.css样式）"
+
+#: options.php:170
+#: trunk/options.php:169
+msgid "Display"
+msgstr "显示"
+
+#: options.php:173
+#: trunk/options.php:172
+msgid "on home"
+msgstr "首页"
+
+#: options.php:174
+#: trunk/options.php:173
+msgid "on single post"
+msgstr "日志"
+
+#: options.php:175
+#: trunk/options.php:174
+msgid "on page"
+msgstr "页面"
+
+#: options.php:176
+msgid "If uncheck these options, please add tag: <strong>&lt;?php wp_clap(); ?&gt;</strong> to anywhere you want."
+msgstr "如果不选上述选项，请将<strong>&lt;?php wp_clap(); ?&gt;</strong>加到你想显示的地方。"
+
+#: options.php:178
+#: trunk/options.php:177
+msgid "Auto insert frequency into post and excerpt (right top)"
+msgstr "自动将拍手数显示在日志和摘要中(右上角)"
+
+#: options.php:179
+#: trunk/options.php:178
+msgid "except pages"
+msgstr "除了页面"
+
+#: options.php:185
+msgid "Do NOT display claps on the following pages:"
+msgstr "在以下页面不显示拍手："
+
+#: options.php:194
+msgid "No pages."
+msgstr "没有页面。"
+
+#: options.php:201
+#: trunk/options.php:182
+msgid "Show on Admin"
+msgstr "后台显示"
+
+#: options.php:203
+#: trunk/options.php:184
+msgid "Total claps"
+msgstr "总拍手"
+
+#: options.php:204
+#: trunk/options.php:185
+msgid "Total clappers"
+msgstr "拍手人数"
+
+#: options.php:205
+#: wp-clap.php:393
+#: trunk/options.php:186
+#: trunk/wp-clap.php:370
+msgid "Average Claps"
+msgstr "平均拍手"
+
+#: options.php:210
+#: trunk/options.php:191
+msgid "Custom HTML"
+msgstr "自定义HTML"
+
+#: options.php:218
+#: trunk/options.php:199
+msgid "You can write your own HTML for single clappers."
+msgstr "你可以自定义每个拍手人的HTML。"
+
+#: options.php:219
+#: trunk/options.php:200
+msgid "If you do not know how to use it, leave it alone."
+msgstr "如果你不知如何操作，请不要改动这里"
+
+#: options.php:220
+#: trunk/options.php:201
+msgid "To reset the HTML, simply empty it and save. It will be replaced by the default HTML."
+msgstr "清空上面的代码，即可恢复默认的HTML代码。"
+
+#: options.php:221
+#: trunk/options.php:202
+msgid "Click here to show the available code"
+msgstr "点击这里显示可用的代码"
+
+#: options.php:224
+#: trunk/options.php:205
+msgid "claps"
+msgstr "拍手数"
+
+#: options.php:225
+#: trunk/options.php:206
+msgid "clapper's name"
+msgstr "拍手者名字"
+
+#: options.php:226
+#: trunk/options.php:207
+msgid "clapper's site"
+msgstr "拍手者网站"
+
+#: options.php:227
+#: trunk/options.php:208
+msgid "clapper's email (MD5 encode)"
+msgstr "拍手者邮箱 (MD5加密)"
+
+#: options.php:228
+#: trunk/options.php:209
+msgid "before frequency"
+msgstr "次数前"
+
+#: options.php:229
+#: trunk/options.php:210
+msgid "after frequency"
+msgstr "次数后"
+
+#: options.php:230
+#: trunk/options.php:211
+msgid "the size of avatar"
+msgstr "头像的尺寸"
+
+#: options.php:231
+#: trunk/options.php:212
+msgid "default avatar"
+msgstr "默认头像"
+
+#: options.php:243
+#: tags/1.0/options.php:152
+#: trunk/options.php:224
+msgid "Save Changes"
+msgstr "保存设定"
+
+#: options.php:249
+#: tags/1.0/options.php:158
+#: trunk/options.php:230
+msgid "Links"
+msgstr "链接"
+
+#: options.php:251
+#: tags/1.0/options.php:160
+#: trunk/options.php:232
+msgid "Visit Author Homepage"
+msgstr "访问作者主页"
+
+#: options.php:252
+#: tags/1.0/options.php:161
+#: trunk/options.php:233
+msgid "Visit Plugin Homepage"
+msgstr "访问插件主页"
+
+#: wp-clap.php:107
+#: wp-clap.php:555
+#: wp-clap.php:556
+#: tags/1.0/wp-clap.php:103
+#: tags/1.0/wp-clap.php:335
+#: tags/1.0/wp-clap.php:336
+#: trunk/wp-clap.php:93
+#: trunk/wp-clap.php:531
+#: trunk/wp-clap.php:532
+msgid "Clap"
+msgstr "拍拍手"
+
+#: wp-clap.php:387
+#: trunk/wp-clap.php:364
+msgid "Claps"
+msgstr "拍拍手"
+
+#: wp-clap.php:390
+#: trunk/wp-clap.php:367
+msgid "Clappers"
+msgstr "拍手者"
+
+#: wp-clap.php:541
+#: tags/1.0/wp-clap.php:327
+#: trunk/wp-clap.php:518
+msgid "Anonymous"
+msgstr "匿名"
+
+#: wp-clap.php:557
+#: tags/1.0/wp-clap.php:337
+#: trunk/wp-clap.php:533
+msgid "Clapping"
+msgstr "拍手中"
+
+#: wp-clap.php:558
+#: tags/1.0/wp-clap.php:338
+#: trunk/wp-clap.php:534
+msgid "Clapped"
+msgstr "已拍手"
+
+#: trunk/options.php:175
+msgid "If uncheck these options, please add tag: <strong>&lt;?php get_clap(); ?&gt;</strong> to anywhere you want."
+msgstr "如果不选上述选项，请将<strong>&lt;?php get_clap(); ?&gt;</strong>加到你想显示的地方。"
+
+#~ msgid "Average claps"
+#~ msgstr "平均拍手"
+
+#~ msgid "You can use <strong>%clap_f%</strong> to show the clap frequency."
+#~ msgstr "你可以在文本中使用 <strong>%clap_f%</strong> 来显示拍手次数。"

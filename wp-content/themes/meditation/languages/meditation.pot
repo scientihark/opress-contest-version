@@ -1,0 +1,118 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Theme meditation\n"
+"Report-Msgid-Bugs-To: http://www.w3theme.com/meditation/\n"
+"POT-Creation-Date: 2010-05-06 09:18+0800\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: \n"
+
+msgid "Visit %s's website"
+msgstr ""
+
+msgid "Quote this comment"
+msgstr ""
+
+msgid "The logo image URL"
+msgstr ""
+
+msgid "Site keywords"
+msgstr ""
+
+msgid "Site description"
+msgstr ""
+
+msgid "Show author"
+msgstr ""
+
+msgid "Show copyright"
+msgstr ""
+
+msgid "Custom header text"
+msgstr ""
+
+msgid "Custom footer text"
+msgstr ""
+
+msgid "Footer code"
+msgstr ""
+
+msgid "Layout"
+msgstr ""
+
+msgid "3-Columns, Thin, Wide, Thin"
+msgstr ""
+
+msgid "3-Columns, Wide, Thin, Thin"
+msgstr ""
+
+msgid "2-Columns, Thin, Wide"
+msgstr ""
+
+msgid "2-Columns, Wide, Thin"
+msgstr ""
+
+msgid "404 error page"
+msgstr ""
+
+msgid "Show index meta item"
+msgstr ""
+
+msgid "Default feed type"
+msgstr ""
+
+msgid "Number of recent posts to show"
+msgstr ""
+
+msgid "Number of recent comments to show"
+msgstr ""
+
+msgid "Use secure login"
+msgstr ""
+
+msgid "Enable SSL"
+msgstr ""
+
+msgid "Do not check this if you are not sure, or you will be unable to login!"
+msgstr ""
+
+msgid "Click this link to check you have SSL properly installed."
+msgstr ""
+
+msgid "Hello, %s!"
+msgstr ""
+
+msgid "Subscribe"
+msgstr ""
+
+msgid "Font:"
+msgstr ""
+
+msgid "Large"
+msgstr ""
+
+msgid "Normal"
+msgstr ""
+
+msgid "Small"
+msgstr ""
+
+msgid "Zoom in font"
+msgstr ""
+
+msgid "Normal font size"
+msgstr ""
+
+msgid "Zoom out font"
+msgstr ""
+
+msgid "<a href=\"%s\">Log in</a> to leave a comment or comment anonymously."
+msgstr ""
+
+msgid "Why register? Fast post, no spam, no moderation required. <a href=\"%s\">Register now</a>!"
+msgstr ""
+
