@@ -21,7 +21,7 @@ define('DB_NAME', 'contest');
 define('DB_USER', 'contest');
 
 /** MySQL 数据库密码 */
-define('DB_PASSWORD', 'contest');
+define('DB_PASSWORD', '********');
 
 /** MySQL 主机 */
 define('DB_HOST', 'localhost');
@@ -41,14 +41,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         '*-iMv[*~X?dsai+`*%pQnU|B>2Ed)O2Yl^}U{DnSSg<!Vf0|?<J2uLh,V{esi79!');
-define('SECURE_AUTH_KEY',  'vy>34=>pU;3sam14:}hE&YIY|5VNY.{WdwVcXjh7:5)`S>V8ML#.!BjzomLtE+%-');
+define('AUTH_KEY',         '*-iMv[*~X?dsai+`*%pQnU|B>9Ed)O1Yl^}U{DnSSg<!Vf0|?<J2uLh,V{esi79!');
+define('SECURE_AUTH_KEY',  'vy>34=>pU;3sam14:}hE&YIY|5VNY.{WdwVcXjh5:5)`S>V8ML#.!BjzomLtE+%-');
 define('LOGGED_IN_KEY',    'J{)|)0`$$X-spnZ5iWS|#|n#HkvtBTtM9%dL1G4<$:e{yHJ|,[nG{,q_xN1Ik_p,');
 define('NONCE_KEY',        'w-gDJ|2B=b+gANgH7l/x+.J({Z~ki>_U|f^D]dW-F H;E;bpCb@zbh$kh,!^Jeqk');
-define('AUTH_SALT',        '#+GIql|=0VO|L=Q-`<eB#KF:lnfzwSph{iY(x2C4_UzZ@QzdsUvQT_K0=zAA^>J4');
+define('AUTH_SALT',        '#+GIql|=0VO|L=Q-`<eB#KF:lnfzwSph{jY(x2C4_UzZ@QzdsUvQT_K0=zAA^>J4');
 define('SECURE_AUTH_SALT', '|?rA^`+t1RP-P%|SA/Kav#KhdmmX& O:fb=fj;A_K+(xGca8o<|5Bexw3xvf+.D!');
 define('LOGGED_IN_SALT',   '}avtPS}/5/%i1,~NJ_.he v<Pn?l*d>kO_1PT:4SilT;nN-A]WEI6,6>r^n]QMy<');
-define('NONCE_SALT',       '9:^dloN[$}s!Y5t&1}mWt@Kt:2|G+D.]zs0_Qp|Oc5$9&S_T7b$5>5s-m1[D0~<`');
+define('NONCE_SALT',       '9:^dloN[$}s!Y5t&1}mWt@Kt:1|G+D.]zs0_Qp|Oc5$9&S_T7b$5>5s-m1[D0~<`');
 
 /**#@-*/
 
